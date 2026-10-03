@@ -1,0 +1,91 @@
+{
+  "id": "link-shelf",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Link Shelf"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Save labeled HTTP and HTTPS reference links."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "Reference links \u00b7 1 items"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "entry",
+          "label": "Label | URL",
+          "placeholder": "Type and press Enter",
+          "value": "",
+          "submitLabel": "save"
+        }
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "column"
+        },
+        "children": [
+          {
+            "type": "Link",
+            "props": {
+              "href": "https://code.claude.com/docs/en/plugins/mods/overview",
+              "label": "Mods docs"
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "delete-0",
+              "label": "Delete",
+              "plain": true,
+              "dimColor": true
+            }
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Saved locally."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Reload saved items"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "ff79bb03a53091cf9313bcd1a4c28f2b34b055e6d2138b18bfd0a4383b66d8b0"
+}

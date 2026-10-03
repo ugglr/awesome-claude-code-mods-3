@@ -1,0 +1,74 @@
+{
+  "id": "scope-watch",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Scope Watch"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Warn when observed file edits leave a chosen path prefix."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "prefix",
+          "label": "Expected path prefix",
+          "value": "src/",
+          "submitLabel": "watch"
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Advisory only. Bash and MCP edits are not detected."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "color": "yellow"
+        },
+        "children": [
+          "docs/README.md"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "color": "yellow"
+        },
+        "children": [
+          "package.json"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "1fe6494bf12c3f3d7e8a1f34afc530c5663f834857eae5afb6169b2293637331"
+}

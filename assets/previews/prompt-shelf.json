@@ -1,0 +1,107 @@
+{
+  "id": "prompt-shelf",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Prompt Shelf"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Save reusable prompts and put one into the composer as a draft."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "Reusable prompts \u00b7 1 items"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "entry",
+          "label": "Prompt",
+          "placeholder": "Type and press Enter",
+          "value": "",
+          "submitLabel": "save"
+        }
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "column"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "flexDirection": "row",
+              "columnGap": 2,
+              "flexWrap": "wrap"
+            },
+            "children": [
+              {
+                "type": "Text",
+                "children": [
+                  "Review this patch for accessibility and edge cases"
+                ]
+              },
+              {
+                "type": "Button",
+                "props": {
+                  "key": "draft-0",
+                  "label": "Draft"
+                }
+              }
+            ]
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "delete-0",
+              "label": "Delete",
+              "plain": true,
+              "dimColor": true
+            }
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Saved locally."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Reload saved items"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "519c701897dfb4acbf195e85e5b60f34ee4922f23aa763820ec08bf721ac29f7"
+}

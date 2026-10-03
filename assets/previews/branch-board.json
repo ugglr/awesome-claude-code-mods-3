@@ -1,0 +1,48 @@
+{
+  "id": "branch-board",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Branch Board"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Inspect local branches, upstreams, and dirty files."
+        ]
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "## feature/mod-gallery\n M src/index.ts\n?? docs/notes.md\n\n\n* feature/mod-gallery  123abcd [origin/feature/mod-gallery] Add gallery\n  main                 456def0 [origin/main] Release\n",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh Git state",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "50d2ba5d31ea850bd1330842188bafec62e5a80e1f41e3b8cd6e4e18b01296b0"
+}

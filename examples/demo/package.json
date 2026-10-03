@@ -1,0 +1,9 @@
+{
+  "name": "mod-preview-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local fixture files for trying repository viewer mods",
+  "scripts": { "test": "echo This is a demo script, not a test suite", "build": "echo This is a demo script, not a build" },
+  "dependencies": {},
+  "devDependencies": {}
+}

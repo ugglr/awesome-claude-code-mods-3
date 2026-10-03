@@ -1,0 +1,55 @@
+{
+  "id": "csv-table",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "CSV Table"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Preview quoted CSV fields, row counts, and column headers."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "target",
+          "label": "File",
+          "value": "data.csv",
+          "submitLabel": "open"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "2 data rows \u00b7 2 columns\n\nname                      | city                     \nAda, A.                   | London                   \nGrace                     | New \u21b5 York               ",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Read file again"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "bd164b375ec5e560347891db5bec08182b52173a2535bfeb388d4998acfc8046"
+}

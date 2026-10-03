@@ -1,0 +1,79 @@
+{
+  "id": "regex-lab",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Regex Lab"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Test a regular expression against text and see matched ranges."
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Supported subset: character classes, anchors, escapes, and one repetition; no groups or alternation."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "pattern",
+          "label": "Pattern",
+          "value": "APP-\\d+",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "flags",
+          "label": "Flags",
+          "value": "g",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "source",
+          "label": "Text",
+          "value": "Fix APP-123 before APP-456",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "2 matches\n\n[4, 11) APP-123\n[19, 26) APP-456",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy result"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "cff29db88ddf9a95d2183f5626dd11a2500dc3af775e2bcced0bdc64c846f062"
+}

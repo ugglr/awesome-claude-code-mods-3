@@ -1,0 +1,62 @@
+{
+  "id": "quota-watch",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Quota Watch"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Inspect reported plan windows and their reset times."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "Reported plan windows"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "five_hour  [#########---------------] 37.0%\nResets: 2026-10-03T12:00:00.000Z"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "seven_day  [###############---------] 61.0%\nResets: 2026-10-09T09:00:00.000Z"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "6003778372f2f3000e9cd47d8e5e33e789523c231e7d50826e1ccdbd828272ae"
+}

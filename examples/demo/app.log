@@ -1,0 +1,4 @@
+INFO local demo started
+WARN retrying fixture operation
+ERROR simulated connection refused
+INFO fixture operation recovered

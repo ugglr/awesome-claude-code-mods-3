@@ -1,0 +1,57 @@
+{
+  "id": "stash-browser",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Stash Browser"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "List stashes and inspect a selected stash diff."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "target",
+          "label": "stash reference",
+          "value": "stash@{0}",
+          "submitLabel": "inspect"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "stash@{0}  WIP on feature/search\nstash@{1}  WIP on main\n\n\n src/search.ts | 8 ++++----\n",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh Git state",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "5c162077af76cb63be01ed03df280949830ef81e6eb17938103f0acc6a4f2af7"
+}

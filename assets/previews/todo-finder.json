@@ -1,0 +1,46 @@
+{
+  "id": "todo-finder",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "TODO Finder"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Find TODO, FIXME, and HACK notes in tracked files."
+        ]
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "src/index.ts:12:// TODO improve empty state\nsrc/api.ts:44:// FIXME retry timeout\n",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Search tracked files"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "51dde42d14a2ae70757668fac71ae8ed8d7433fee9d6595d6ecde1b77718c4d3"
+}

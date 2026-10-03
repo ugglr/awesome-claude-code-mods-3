@@ -1,0 +1,53 @@
+{
+  "id": "cache-inspector",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Cache Inspector"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Track API cache reads, writes, and uncached input by request."
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Latest 30 completed requests; counts from API reports."
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "1. main \u00b7 claude-test\nRead 1000 \u00b7 wrote 80 \u00b7 uncached 20"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "7259d8beaea967c302d43879d9b47dae4a4481dc20af379a92a3e19caacc96ab"
+}

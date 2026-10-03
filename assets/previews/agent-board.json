@@ -1,0 +1,57 @@
+{
+  "id": "agent-board",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Agent Board"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Inspect the subagents reported by the session."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "Subagents reported by this session"
+        ]
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "{\n  \"id\": \"a-1\",\n  \"description\": \"Review accessibility\",\n  \"type\": \"Explore\",\n  \"status\": \"running\"\n}",
+          "language": "json"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "e8744081a44a3cc3211b378410b355788e6917f070ddb2df75a02fa4cf33bb32"
+}

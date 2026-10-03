@@ -1,0 +1,62 @@
+{
+  "id": "uuid-lab",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "UUID Lab"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Generate up to 20 random UUID v4 values locally."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "count",
+          "label": "Count (1\u201320)",
+          "value": "3",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "b732d923-c498-4eaa-bd4b-8b99aa29f20d\n6c69506d-880d-481f-9633-b3a89f0f6198\n603c56a4-ec00-4d93-a9f3-4a3d3f8f75d7",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "generate",
+          "label": "Generate new IDs"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy result"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "144ea55bbf2d7ff469d50be3a865e63d82cbf76006462db71ef5e2f414b94197"
+}

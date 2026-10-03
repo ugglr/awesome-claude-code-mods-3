@@ -1,0 +1,64 @@
+{
+  "id": "file-compare",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "File Compare"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Compare two small text files by line without editing either."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "left",
+          "label": "Left file",
+          "value": "before.txt",
+          "submitLabel": "set"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "right",
+          "label": "Right file",
+          "value": "after.txt",
+          "submitLabel": "compare"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "1 differing line positions (positional comparison)\n\n2: - old\n   + new",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Compare again"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "14343f19e57128597f0ddf92b6c7c21fddc5af9bd37f87337a4d774f83ab1a8b"
+}

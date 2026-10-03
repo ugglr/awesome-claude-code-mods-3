@@ -1,0 +1,74 @@
+{
+  "id": "focus-clock",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Focus Clock"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Run a 25-minute focus countdown with pause, reset, and a toast."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "22:55"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Focus interval is running."
+        ]
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "columnGap": 2,
+          "flexWrap": "wrap"
+        },
+        "children": [
+          {
+            "type": "Button",
+            "props": {
+              "key": "start",
+              "label": "Pause",
+              "hotkey": "s",
+              "plain": true
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "reset",
+              "label": "Reset 25 minutes"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "sourceSha256": "7ce975e65c42eebea1eecbb97670a6286773b7ee3480f793a98e1d1a9618ebe5"
+}

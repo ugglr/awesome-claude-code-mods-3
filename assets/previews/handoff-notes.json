@@ -1,0 +1,97 @@
+{
+  "id": "handoff-notes",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Handoff Notes"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Keep a dated list of progress and next steps, then copy it."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "Handoff notes \u00b7 1 items"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "entry",
+          "label": "Handoff note",
+          "placeholder": "Type and press Enter",
+          "value": "",
+          "submitLabel": "save"
+        }
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "column"
+        },
+        "children": [
+          {
+            "type": "Text",
+            "children": [
+              "2026-10-03 09:00 UTC\nDone: API parser. Next: verify empty responses."
+            ]
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "delete-0",
+              "label": "Delete",
+              "plain": true,
+              "dimColor": true
+            }
+          }
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy-all",
+          "label": "Copy handoff"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Saved locally."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Reload saved items"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "9919376dd1ec18c5b89cdca03f545dafc42040270533068e085223d2a3d648e9"
+}

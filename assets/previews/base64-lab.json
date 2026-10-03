@@ -1,0 +1,64 @@
+{
+  "id": "base64-lab",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Base64 Lab"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Encode UTF-8 text or decode strict Base64."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "mode",
+          "label": "Mode: encode or decode",
+          "value": "encode",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "source",
+          "label": "Text / Base64",
+          "value": "Hello, mods!",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "SGVsbG8sIG1vZHMh",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy result"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "bcd56cd5b526ad8124dbba99c35c75b3477ddf83ade7920a9d051efa033e7736"
+}

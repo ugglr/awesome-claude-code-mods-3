@@ -1,0 +1,62 @@
+{
+  "id": "tool-timing",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Tool Timing"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Measure observed tool latency, call counts, and failures."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "Tool                         calls   avg ms   failed"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Read                        4       0        0"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Bash                        1       0        0"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "8777eaefe088b014e6764f8c7d77a443a7944b32155b5cc071d0e9eed9ef1566"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "hash-lab",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Hash Lab"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Calculate SHA-256, SHA-384, or SHA-512 for UTF-8 text."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "algorithm",
+          "label": "Algorithm",
+          "value": "SHA-256",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "source",
+          "label": "Text",
+          "value": "hello",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "SHA-256\n2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy result"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "56cbf6aedb5decd3e11ef915fcf561787ba7134d72420626a0b22f9cef07b6be"
+}

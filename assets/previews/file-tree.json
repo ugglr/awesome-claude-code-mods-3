@@ -1,0 +1,74 @@
+{
+  "id": "file-tree",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "File Tree"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Browse one directory at a time with clickable folders."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "target",
+          "label": "Directory",
+          "value": ".",
+          "submitLabel": "browse"
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Up to 100 entries. Symlinks are shown but not followed by buttons."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "dir-0",
+          "label": "[dir] src",
+          "plain": true
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "[file] package.json  220 B"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "[link] linked  0 B"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh directory"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "4e5cf20badda5d7f75db32bb76c4a2d819d01821ac489a96175d3e5fd8a71a3d"
+}

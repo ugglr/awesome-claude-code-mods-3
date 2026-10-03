@@ -1,0 +1,90 @@
+{
+  "id": "decision-log",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Decision Log"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Record dated engineering decisions."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "Decision history \u00b7 1 items"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "entry",
+          "label": "Decision",
+          "placeholder": "Type and press Enter",
+          "value": "",
+          "submitLabel": "save"
+        }
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "column"
+        },
+        "children": [
+          {
+            "type": "Text",
+            "children": [
+              "2026-10-03 09:00 UTC\nKeep all analytics collection opt-in"
+            ]
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "delete-0",
+              "label": "Delete",
+              "plain": true,
+              "dimColor": true
+            }
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Saved locally."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Reload saved items"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "89624e886020e2a61b5022dfa34371ca6563e7cedd943c3c76e97d81a43ad906"
+}

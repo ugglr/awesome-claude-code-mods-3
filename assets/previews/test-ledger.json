@@ -1,0 +1,59 @@
+{
+  "id": "test-ledger",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Test Ledger"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Record likely test, lint, and build commands and their tool status."
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Command detection is heuristic. Tool completion does not prove tests passed."
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "1. tool completed\nnpm test"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "2. tool error\nnpm run build"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "98705d75499bc2a60870d5e79da646b1e9630f57412cde21702456491d196bab"
+}

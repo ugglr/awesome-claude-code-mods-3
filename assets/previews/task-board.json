@@ -1,0 +1,117 @@
+{
+  "id": "task-board",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Task Board"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Add tasks and toggle done status."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "Tasks \u00b7 2 items"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "entry",
+          "label": "Task",
+          "placeholder": "Type and press Enter",
+          "value": "",
+          "submitLabel": "save"
+        }
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "column"
+        },
+        "children": [
+          {
+            "type": "Button",
+            "props": {
+              "key": "toggle-0",
+              "label": "[x] Review the keyboard controls",
+              "plain": true
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "delete-0",
+              "label": "Delete",
+              "plain": true,
+              "dimColor": true
+            }
+          }
+        ]
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "column"
+        },
+        "children": [
+          {
+            "type": "Button",
+            "props": {
+              "key": "toggle-1",
+              "label": "[ ] Verify empty states on mobile",
+              "plain": true
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "delete-1",
+              "label": "Delete",
+              "plain": true,
+              "dimColor": true
+            }
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Saved locally."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Reload saved items"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "0cf92326c3cf0bcbf909f5a88915b2cf9dd313e6689fab15d3da388d09833069"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "blame-view",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Blame View"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Read authorship for the first 80 lines of a chosen tracked file."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "target",
+          "label": "tracked file path",
+          "value": "README.md",
+          "submitLabel": "inspect"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "123abcd (Ada 2026-10-03 1) # Demo application\n456def0 (Grace 2026-10-02 2) ## Setup\n",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh Git state",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "e33948d892f0c0087593641bdd726e35fd1ba68ccd3eea4be293153e6f9c5ffe"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "commit-browser",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Commit Browser"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Browse the latest 20 commits with author and subject."
+        ]
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "123abcd  2026-10-03  Ada\n    Add keyboard controls\n456def0  2026-10-02  Grace\n    Fix empty states\n",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh Git state",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "300104992280aea0e4158ef889efe32d206b10bc5c483c20000d55dab931f17e"
+}

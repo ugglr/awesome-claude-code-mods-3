@@ -1,0 +1,55 @@
+{
+  "id": "env-example",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Env Example"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "List variable names and missing placeholders in an example env file."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "target",
+          "label": "File",
+          "value": ".env.example",
+          "submitLabel": "open"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "1: API_URL \u00b7 example value provided\n2: API_KEY \u00b7 value needed",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Read file again"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "143da54e95d80c989837eede2673ae7806f1614e7c8aaf1e1075e9302e1acb8f"
+}

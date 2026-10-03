@@ -1,0 +1,91 @@
+{
+  "id": "ascii-flipbook",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "ASCII Flipbook"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Play a local text animation whose frames are separated by a form feed."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "target",
+          "label": "Text animation",
+          "value": "animation.txt",
+          "submitLabel": "load"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "Frame 1 / 2"
+        ]
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "( o.o )\n > ^ <",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "columnGap": 2,
+          "flexWrap": "wrap"
+        },
+        "children": [
+          {
+            "type": "Button",
+            "props": {
+              "key": "play",
+              "label": "Play",
+              "hotkey": "p",
+              "plain": true
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "next",
+              "label": "Next frame",
+              "hotkey": "n",
+              "plain": true
+            }
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Built-in two-frame demo. Open a text file to load your own."
+        ]
+      }
+    ]
+  },
+  "sourceSha256": "838eb4b564ff3f095a3eb7b23d7b0f75b97970c87ca8c197eb2e4a3d99229b3b"
+}

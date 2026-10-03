@@ -1,0 +1,55 @@
+{
+  "id": "markdown-map",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Markdown Map"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Build a heading outline with source line numbers."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "target",
+          "label": "File",
+          "value": "README.md",
+          "submitLabel": "open"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "   1  Demo application\n   3    Setup\n   7      Tests",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Read file again"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "ca2c93c4153442fc251a9f306bae65a4184fd6b753f0018d46c26fb0b20c6b0f"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "package-scripts",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Package Scripts"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "List npm scripts and package identity without running them."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "target",
+          "label": "File",
+          "value": "package.json",
+          "submitLabel": "open"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "demo-app @ 1.2.0\n\ntest\n  vitest run\nbuild\n  vite build",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Read file again"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "38a9aa80e411b94631995a782b0112986e79c3236a68076dce54d63feb36acb6"
+}

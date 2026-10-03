@@ -1,0 +1,64 @@
+{
+  "id": "log-viewer",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Log Viewer"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Show the last 60 lines of a small local log with an optional filter."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "target",
+          "label": "File",
+          "value": "app.log",
+          "submitLabel": "open"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "filter",
+          "label": "Contains",
+          "value": "",
+          "submitLabel": "filter"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "5 matching lines \u00b7 showing last 60\n\nINFO server ready\nWARN retrying\nERROR connection refused\nINFO recovered\n",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Read file again"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "98d9b2d2826f084649d150cb272987f0d86a35124cb4d04e6b94e9a990b9d14c"
+}

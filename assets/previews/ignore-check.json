@@ -1,0 +1,57 @@
+{
+  "id": "ignore-check",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Ignore Check"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Explain which Git ignore rule matches a path."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "target",
+          "label": "path to check",
+          "value": "dist/bundle.js",
+          "submitLabel": "inspect"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": ".gitignore:3:dist/\tdist/bundle.js\n",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh Git state",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "f53f02619fc9f66bde99bd90fb95ef91b6fb5eb4a89011b4472a69420b788e07"
+}

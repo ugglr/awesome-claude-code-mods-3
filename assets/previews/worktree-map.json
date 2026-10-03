@@ -1,0 +1,48 @@
+{
+  "id": "worktree-map",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Worktree Map"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "List worktree paths, branches, and locked states."
+        ]
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "worktree /work\nHEAD 123abcd\nbranch refs/heads/main\n\nworktree /work-review\nHEAD 456def0\nbranch refs/heads/review\n",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh Git state",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "cb301520b0ad1cea7e6fcc17e50e42f1c97135ad757efabf4a970f2fcbb3d95c"
+}

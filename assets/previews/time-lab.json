@@ -1,0 +1,55 @@
+{
+  "id": "time-lab",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Time Lab"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Convert Unix seconds, milliseconds, or an ISO date to UTC."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "source",
+          "label": "Timestamp",
+          "value": "2026-10-03T09:00:00Z",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "UTC: 2026-10-03T09:00:00.000Z\nUnix seconds: 1791018000\nUnix milliseconds: 1791018000000",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy result"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "5cb166169319d4b09330275f76f6ae4cf6fc7f2338e0994539606029a07dce8a"
+}

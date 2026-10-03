@@ -1,0 +1,116 @@
+{
+  "id": "command-history",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Command History"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Keep the last 40 Bash command strings and copy one for reuse."
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Observed Bash commands; may include private arguments."
+        ]
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "columnGap": 2,
+          "flexWrap": "wrap"
+        },
+        "children": [
+          {
+            "type": "Text",
+            "children": [
+              "1. git status --short"
+            ]
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "copy-0",
+              "label": "Copy"
+            }
+          }
+        ]
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "columnGap": 2,
+          "flexWrap": "wrap"
+        },
+        "children": [
+          {
+            "type": "Text",
+            "children": [
+              "2. npm test"
+            ]
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "copy-1",
+              "label": "Copy"
+            }
+          }
+        ]
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "columnGap": 2,
+          "flexWrap": "wrap"
+        },
+        "children": [
+          {
+            "type": "Text",
+            "children": [
+              "3. rg -n TODO src/"
+            ]
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "copy-2",
+              "label": "Copy"
+            }
+          }
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "a0e5c15d473a0d674aa5ee3d9581ca357bf191b2d071dcd4440c49f1c33f5a90"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "dependency-table",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Dependency Table"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Inspect dependency groups from a package manifest."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "target",
+          "label": "File",
+          "value": "package.json",
+          "submitLabel": "open"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "dependencies (1)\nreact                       ^19.0.0\n\ndevDependencies (1)\nvitest                      ^3.0.0\n\npeerDependencies (0)\n\n\noptionalDependencies (0)\n",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Read file again"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "7d77bfa07d10d97950738f3a075a8efd5037cb9265d0779ffcd719f2e8f4ccac"
+}

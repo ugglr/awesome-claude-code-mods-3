@@ -1,0 +1,66 @@
+{
+  "id": "error-inbox",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Error Inbox"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Keep the last 30 failed or refused tool calls in one pane."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "2 recent failures"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "color": "yellow"
+        },
+        "children": [
+          "1. Read \u00b7 Fixture failure"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "color": "yellow"
+        },
+        "children": [
+          "2. Bash \u00b7 Fixture failure"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "clear",
+          "label": "Clear inbox"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "7b99bb4d02821edf462e332cae8f1e52aa4412a98bdfd06b348f897cf72971b9"
+}

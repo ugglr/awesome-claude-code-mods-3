@@ -1,0 +1,61 @@
+{
+  "id": "read-only-mode",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Read-only Mode"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Toggle a reminder guard that refuses built-in mutating tools and Bash."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "green"
+        },
+        "children": [
+          "Guard ON"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Blocks Edit, Write, NotebookEdit, and all Bash calls. MCP and other mods are outside this reminder guard."
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "1 calls refused"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "toggle",
+          "label": "Disable guard"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "ec7d54c5255947d5fb0605ce441cfe8c3ffe598ac805313e8ae8c7d7c9d2a9fe"
+}

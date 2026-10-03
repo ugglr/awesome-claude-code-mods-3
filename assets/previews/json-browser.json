@@ -1,0 +1,55 @@
+{
+  "id": "json-browser",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "JSON Browser"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Summarize top-level JSON keys with types and a formatted preview."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "target",
+          "label": "File",
+          "value": "package.json",
+          "submitLabel": "open"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "name \u00b7 string\nversion \u00b7 string\nscripts \u00b7 object\ndependencies \u00b7 object\ndevDependencies \u00b7 object\n\n{\n  \"name\": \"demo-app\",\n  \"version\": \"1.2.0\",\n  \"scripts\": {\n    \"test\": \"vitest run\",\n    \"build\": \"vite build\"\n  },\n  \"dependencies\": {\n    \"react\": \"^19.0.0\"\n  },\n  \"devDependencies\": {\n    \"vitest\": \"^3.0.0\"\n  }\n}",
+          "language": "json"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Read file again"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "398f623173b6092b6987300d3cfe20964e3590f338584983e16d2a813618756b"
+}

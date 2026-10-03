@@ -1,0 +1,79 @@
+{
+  "id": "stopwatch",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Stopwatch"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Time a task with start, pause, and lap markers."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "17.1 seconds"
+        ]
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "columnGap": 2,
+          "flexWrap": "wrap"
+        },
+        "children": [
+          {
+            "type": "Button",
+            "props": {
+              "key": "start",
+              "label": "Start"
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "lap",
+              "label": "Lap"
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "reset",
+              "label": "Reset"
+            }
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Lap 1 \u00b7 12.4s"
+        ]
+      }
+    ]
+  },
+  "sourceSha256": "f2793e999dfa101ebdfcf55ed8b349af33dde24fa3bd247edb1227c0ff685ddf"
+}

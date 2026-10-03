@@ -1,0 +1,62 @@
+{
+  "id": "context-meter",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Context Meter"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "See the current context window fill and remaining tokens."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "color": "green"
+        },
+        "children": [
+          "[##########--------------] 42.0%"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "84,000 / 200,000 tokens"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "116,000 tokens remaining"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "a06c32a42c29331b9ac82b7e1a0c22ef23ddf1b8af3c1c8ae6a84b3bd3e118e3"
+}

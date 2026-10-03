@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+*.log
+!examples/demo/app.log
+# Written by Claude Code for the installed version; never ship stale engine types.
+mods/*/.claude-plugin/types/
+mods/*/tsconfig.json

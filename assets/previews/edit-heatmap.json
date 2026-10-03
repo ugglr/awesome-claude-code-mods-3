@@ -1,0 +1,59 @@
+{
+  "id": "edit-heatmap",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Edit Heatmap"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Count successful Edit and Write calls by path."
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Successful file tool calls; Bash edits are not counted."
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "############ 5  src/index.ts"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "###          1  src/index.test.ts"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "a6e0663cf0ad5ebc9684b28fdc0fe89cd39177f9516a408af70082a1462acbbd"
+}

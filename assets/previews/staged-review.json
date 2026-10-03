@@ -1,0 +1,48 @@
+{
+  "id": "staged-review",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Staged Review"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Review the staged diff before committing."
+        ]
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": " src/index.ts | 2 +-\n 1 file changed\n\n\n@@ -1 +1 @@\n-old label\n+new label\n",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh Git state",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "c76fcf4a841ad2b6bb60828f080d88af01bbd4a315fd41442b2ad95f2b6537b0"
+}

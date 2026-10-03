@@ -1,0 +1,55 @@
+{
+  "id": "url-lab",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "URL Lab"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Inspect URL components and decoded query parameters locally."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "source",
+          "label": "URL",
+          "value": "https://example.com/callback?state=hello%20world&mode=preview#result",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "{\n  \"protocol\": \"https:\",\n  \"hostname\": \"example.com\",\n  \"port\": \"(default)\",\n  \"path\": \"/callback\",\n  \"fragment\": \"#result\",\n  \"query\": [\n    [\n      \"state\",\n      \"hello world\"\n    ],\n    [\n      \"mode\",\n      \"preview\"\n    ]\n  ],\n  \"hasCredentials\": false\n}",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy result"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "a24ddc6f90b7ac63640e4453b481e1d7055a044f4c37508e2cb31fd38d235600"
+}

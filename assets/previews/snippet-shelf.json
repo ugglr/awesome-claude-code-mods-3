@@ -1,0 +1,108 @@
+{
+  "id": "snippet-shelf",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Snippet Shelf"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Save and copy short code or command snippets."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "Saved snippets \u00b7 1 items"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "entry",
+          "label": "Snippet",
+          "placeholder": "Type and press Enter",
+          "value": "",
+          "submitLabel": "save"
+        }
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "column"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "flexDirection": "row",
+              "columnGap": 2,
+              "flexWrap": "wrap"
+            },
+            "children": [
+              {
+                "type": "Code",
+                "props": {
+                  "source": "git log --oneline -10",
+                  "language": "text"
+                }
+              },
+              {
+                "type": "Button",
+                "props": {
+                  "key": "copy-0",
+                  "label": "Copy"
+                }
+              }
+            ]
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "delete-0",
+              "label": "Delete",
+              "plain": true,
+              "dimColor": true
+            }
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Saved locally."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Reload saved items"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "ef8d2f07a903c2b51a66d175e90ef4953fb2ffb3dc4eb7cc5974658341407702"
+}

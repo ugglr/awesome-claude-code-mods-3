@@ -1,0 +1,64 @@
+{
+  "id": "color-lab",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Color Lab"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Convert hex colors and measure contrast against a background."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "foreground",
+          "label": "Foreground hex",
+          "value": "#86efac",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "background",
+          "label": "Background hex",
+          "value": "#0f172a",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "Foreground RGB: 134, 239, 172\nBackground RGB: 15, 23, 42\nContrast: 12.71:1\nMeets 4.5:1 threshold for normal text.",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy result"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "76833b085fd640016a47e55a15fd3e9a4b66f12d22e38577b578e7a052a1d2d5"
+}

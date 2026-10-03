@@ -1,0 +1,55 @@
+{
+  "id": "json-format",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "JSON Format"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Validate and pretty-print JSON without touching a file."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "source",
+          "label": "JSON",
+          "value": "{\"name\":\"mods\",\"count\":50,\"open\":true}",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "{\n  \"name\": \"mods\",\n  \"count\": 50,\n  \"open\": true\n}",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy result"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "9829031880024df2d2abcd88ad4a4334b884bea40618e19686e867ac03c5c771"
+}

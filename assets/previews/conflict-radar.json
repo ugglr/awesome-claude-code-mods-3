@@ -1,0 +1,48 @@
+{
+  "id": "conflict-radar",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Conflict Radar"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "List unresolved paths and count conflict markers in tracked files."
+        ]
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "src/config.ts\n\n\nsrc/config.ts:4:<<<<<<< HEAD\nsrc/config.ts:8:>>>>>>> review\n",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh Git state",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "45074669c48678787eb800a68004483600471171ce07bddfcf75265b6b9748ce"
+}

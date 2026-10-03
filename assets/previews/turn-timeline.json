@@ -1,0 +1,62 @@
+{
+  "id": "turn-timeline",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Turn Timeline"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "dimColor": true
+        },
+        "children": [
+          "Show duration, token totals, and interruption state per turn."
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "Latest 30 observed turns"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "1. main \u00b7 12.4s \u00b7 0 output tokens"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "2. main \u00b7 7.2s \u00b7 0 output tokens \u00b7 interrupted"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh",
+          "hotkey": "r",
+          "plain": true
+        }
+      }
+    ]
+  },
+  "sourceSha256": "c97afce5153bd0c0d5d70c2a3c5b5553eec5914075be945a8250be83a250604d"
+}
