@@ -15,6 +15,7 @@ Research checked on October 3, 2026. Links below are primary author repositories
 | [claude-games](https://github.com/mohi-devhub/claude-games) | Games that respond to real coding activity | Include a small ASCII flipbook and focus tools rather than a game pack |
 | [Storybloq](https://github.com/Storybloq/storybloq) | Project stories, plans, handovers, review evidence | Include explicit user-maintained decisions and handoff notes |
 | [claude-mods / Mermaid](https://github.com/galElmalah/claude-mods) | Inline diagram rendering | Make render outputs inspectable and keep Desktop/Terminal compatibility clear |
+| [Claude Image View](https://github.com/jarrodwatts/claude-image-view) | Numbered thumbnails of pasted images above the prompt in terminals supporting the kitty graphics protocol | Link the author's marketplace installation and explain terminal requirements in the README's Community mods section |
 | [karanb192/claude-code-mods](https://github.com/karanb192/claude-code-mods) | Mod building and cache/model customization | Inventory every engine call with the native validator |
 | [Community mod catalogue](https://github.com/karanb192/awesome-claude-code-mods) | Discover mods with reported access footprints | Describe access per mod and distinguish validation from safety or runtime proof |
 

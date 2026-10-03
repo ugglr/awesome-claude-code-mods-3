@@ -52,7 +52,25 @@ for category in dict.fromkeys(m['category'] for m in mods):
  for m in group:
   out+=f"| [{m['title']}](mods/{m['id']}/README.md) | {m['description']} | [![{m['title']} preview](assets/screenshots/{m['id']}.png)](assets/screenshots/{m['id']}.png) |\n"
  out+='\n'
-out+='''## How the collection behaves
+out+='''## Community mods
+
+### [Claude Image View](https://github.com/jarrodwatts/claude-image-view) · by Jarrod Watts
+
+Shows numbered thumbnails of pasted images above the prompt input. Previews appear immediately, preserve aspect ratios, fit the available space, and clear when you send the prompt or delete the image tags.
+
+Install from the author's marketplace inside Claude Code:
+
+```text
+/plugin marketplace add jarrodwatts/claude-image-view
+/plugin install image-view
+/reload-plugins
+```
+
+Requires Claude Code **2.1.287+**, macOS or Linux, and a terminal supporting the **kitty graphics protocol**, such as Ghostty or kitty. Other terminals display image tags in the tiles; the mod draws nothing in Claude Desktop, which already previews pasted images.
+
+The upstream README describes local prompt and image-cache reads, no network requests or file writes, and a one-time `id -u` call when `CLAUDE_CODE_TMPDIR` is unset. MIT-licensed. This is an external project installed from its own marketplace; we reviewed its documentation but have not installed or tested it. [Upstream README and source](https://github.com/jarrodwatts/claude-image-view).
+
+## How the collection behaves
 
 - Panes open when you run a command. Refresh and input controls act on your request.
 - Git inspectors run read-only argv commands. File viewers read bounded, user-chosen paths. They do not edit your repository.
