@@ -13,7 +13,7 @@
         {
           "command": "claude plugin test mods/context-meter",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [29.57ms]\n(pass) leaves another plugin pane untouched [17.89ms]\n(pass) valid controls and behavior on terminal [19.31ms]\n(pass) valid controls and behavior on desktop [16.61ms]\n(pass) capture native render tree for fixture preview [13.78ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.27s]\n[Captured native render tree for context-meter]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [53.84ms]\n(pass) leaves another plugin pane untouched [22.70ms]\n(pass) valid controls and behavior on terminal [25.78ms]\n(pass) valid controls and behavior on desktop [18.32ms]\n(pass) capture native render tree for fixture preview [17.33ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.45s]\n[Captured native render tree for context-meter]\n"
         }
       ]
     },
@@ -29,7 +29,7 @@
         {
           "command": "claude plugin test mods/quota-watch",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [28.19ms]\n(pass) leaves another plugin pane untouched [18.12ms]\n(pass) valid controls and behavior on terminal [16.78ms]\n(pass) valid controls and behavior on desktop [13.55ms]\n(pass) capture native render tree for fixture preview [15.22ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.26s]\n[Captured native render tree for quota-watch]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [54.13ms]\n(pass) leaves another plugin pane untouched [22.66ms]\n(pass) valid controls and behavior on terminal [24.13ms]\n(pass) valid controls and behavior on desktop [19.46ms]\n(pass) capture native render tree for fixture preview [17.12ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.45s]\n[Captured native render tree for quota-watch]\n"
         }
       ]
     },
@@ -45,7 +45,7 @@
         {
           "command": "claude plugin test mods/cache-inspector",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [29.09ms]\n(pass) leaves another plugin pane untouched [17.29ms]\n(pass) valid controls and behavior on terminal [20.32ms]\n(pass) valid controls and behavior on desktop [16.50ms]\n(pass) capture native render tree for fixture preview [14.62ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.27s]\n[Captured native render tree for cache-inspector]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [54.27ms]\n(pass) leaves another plugin pane untouched [22.76ms]\n(pass) valid controls and behavior on terminal [25.42ms]\n(pass) valid controls and behavior on desktop [18.81ms]\n(pass) capture native render tree for fixture preview [18.44ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.45s]\n[Captured native render tree for cache-inspector]\n"
         }
       ]
     },
@@ -61,7 +61,7 @@
         {
           "command": "claude plugin test mods/tool-timing",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [28.32ms]\n(pass) leaves another plugin pane untouched [17.12ms]\n(pass) valid controls and behavior on terminal [17.04ms]\n(pass) valid controls and behavior on desktop [15.21ms]\n(pass) capture native render tree for fixture preview [17.70ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.27s]\n[Captured native render tree for tool-timing]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [53.36ms]\n(pass) leaves another plugin pane untouched [22.55ms]\n(pass) valid controls and behavior on terminal [25.43ms]\n(pass) valid controls and behavior on desktop [20.08ms]\n(pass) capture native render tree for fixture preview [19.74ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.46s]\n[Captured native render tree for tool-timing]\n"
         }
       ]
     },
@@ -77,7 +77,7 @@
         {
           "command": "claude plugin test mods/error-inbox",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.62ms]\n(pass) leaves another plugin pane untouched [14.64ms]\n(pass) valid controls and behavior on terminal [14.93ms]\n(pass) valid controls and behavior on desktop [17.26ms]\n(pass) capture native render tree for fixture preview [20.41ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for error-inbox]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [31.91ms]\n(pass) leaves another plugin pane untouched [21.57ms]\n(pass) valid controls and behavior on terminal [23.74ms]\n(pass) valid controls and behavior on desktop [19.70ms]\n(pass) capture native render tree for fixture preview [19.48ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.34s]\n[Captured native render tree for error-inbox]\n"
         }
       ]
     },
@@ -93,7 +93,7 @@
         {
           "command": "claude plugin test mods/edit-heatmap",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [23.27ms]\n(pass) leaves another plugin pane untouched [14.91ms]\n(pass) valid controls and behavior on terminal [17.48ms]\n(pass) valid controls and behavior on desktop [15.49ms]\n(pass) capture native render tree for fixture preview [21.39ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for edit-heatmap]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [31.99ms]\n(pass) leaves another plugin pane untouched [21.54ms]\n(pass) valid controls and behavior on terminal [21.06ms]\n(pass) valid controls and behavior on desktop [18.70ms]\n(pass) capture native render tree for fixture preview [22.69ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.34s]\n[Captured native render tree for edit-heatmap]\n"
         }
       ]
     },
@@ -109,7 +109,7 @@
         {
           "command": "claude plugin test mods/turn-timeline",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [23.40ms]\n(pass) leaves another plugin pane untouched [15.04ms]\n(pass) valid controls and behavior on terminal [14.17ms]\n(pass) valid controls and behavior on desktop [12.53ms]\n(pass) capture native render tree for fixture preview [20.10ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for turn-timeline]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [32.16ms]\n(pass) leaves another plugin pane untouched [21.88ms]\n(pass) valid controls and behavior on terminal [23.21ms]\n(pass) valid controls and behavior on desktop [19.09ms]\n(pass) capture native render tree for fixture preview [19.90ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.34s]\n[Captured native render tree for turn-timeline]\n"
         }
       ]
     },
@@ -125,7 +125,7 @@
         {
           "command": "claude plugin test mods/agent-board",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [23.54ms]\n(pass) leaves another plugin pane untouched [14.80ms]\n(pass) valid controls and behavior on terminal [14.72ms]\n(pass) valid controls and behavior on desktop [12.36ms]\n(pass) capture native render tree for fixture preview [19.69ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for agent-board]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [32.13ms]\n(pass) leaves another plugin pane untouched [21.78ms]\n(pass) valid controls and behavior on terminal [20.82ms]\n(pass) valid controls and behavior on desktop [18.01ms]\n(pass) capture native render tree for fixture preview [18.90ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.34s]\n[Captured native render tree for agent-board]\n"
         }
       ]
     },
@@ -141,7 +141,7 @@
         {
           "command": "claude plugin test mods/branch-board",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [23.78ms]\n(pass) leaves another plugin pane untouched [14.83ms]\n(pass) valid controls and behavior on terminal [14.87ms]\n(pass) valid controls and behavior on desktop [23.68ms]\n(pass) capture native render tree for fixture preview [15.92ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for branch-board]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [38.10ms]\n(pass) leaves another plugin pane untouched [22.05ms]\n(pass) valid controls and behavior on terminal [22.24ms]\n(pass) valid controls and behavior on desktop [20.06ms]\n(pass) capture native render tree for fixture preview [18.40ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.35s]\n[Captured native render tree for branch-board]\n"
         }
       ]
     },
@@ -157,7 +157,7 @@
         {
           "command": "claude plugin test mods/staged-review",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [23.94ms]\n(pass) leaves another plugin pane untouched [14.57ms]\n(pass) valid controls and behavior on terminal [14.87ms]\n(pass) valid controls and behavior on desktop [23.53ms]\n(pass) capture native render tree for fixture preview [16.29ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for staged-review]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [37.67ms]\n(pass) leaves another plugin pane untouched [22.26ms]\n(pass) valid controls and behavior on terminal [21.99ms]\n(pass) valid controls and behavior on desktop [21.69ms]\n(pass) capture native render tree for fixture preview [18.21ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.35s]\n[Captured native render tree for staged-review]\n"
         }
       ]
     },
@@ -173,7 +173,7 @@
         {
           "command": "claude plugin test mods/commit-browser",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.33ms]\n(pass) leaves another plugin pane untouched [14.54ms]\n(pass) valid controls and behavior on terminal [18.57ms]\n(pass) valid controls and behavior on desktop [19.87ms]\n(pass) capture native render tree for fixture preview [16.19ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for commit-browser]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [38.49ms]\n(pass) leaves another plugin pane untouched [21.48ms]\n(pass) valid controls and behavior on terminal [22.28ms]\n(pass) valid controls and behavior on desktop [19.25ms]\n(pass) capture native render tree for fixture preview [18.48ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.35s]\n[Captured native render tree for commit-browser]\n"
         }
       ]
     },
@@ -189,7 +189,7 @@
         {
           "command": "claude plugin test mods/stash-browser",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [23.90ms]\n(pass) leaves another plugin pane untouched [14.35ms]\n(pass) valid controls and behavior on terminal [19.58ms]\n(pass) valid controls and behavior on desktop [18.85ms]\n(pass) capture native render tree for fixture preview [16.25ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for stash-browser]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [37.82ms]\n(pass) leaves another plugin pane untouched [22.27ms]\n(pass) valid controls and behavior on terminal [23.32ms]\n(pass) valid controls and behavior on desktop [23.56ms]\n(pass) capture native render tree for fixture preview [19.09ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.36s]\n[Captured native render tree for stash-browser]\n"
         }
       ]
     },
@@ -205,7 +205,7 @@
         {
           "command": "claude plugin test mods/worktree-map",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.53ms]\n(pass) leaves another plugin pane untouched [14.98ms]\n(pass) valid controls and behavior on terminal [18.52ms]\n(pass) valid controls and behavior on desktop [14.68ms]\n(pass) capture native render tree for fixture preview [12.49ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for worktree-map]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [33.80ms]\n(pass) leaves another plugin pane untouched [21.11ms]\n(pass) valid controls and behavior on terminal [25.17ms]\n(pass) valid controls and behavior on desktop [19.70ms]\n(pass) capture native render tree for fixture preview [17.61ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.34s]\n[Captured native render tree for worktree-map]\n"
         }
       ]
     },
@@ -221,7 +221,7 @@
         {
           "command": "claude plugin test mods/conflict-radar",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.87ms]\n(pass) leaves another plugin pane untouched [14.90ms]\n(pass) valid controls and behavior on terminal [16.72ms]\n(pass) valid controls and behavior on desktop [14.45ms]\n(pass) capture native render tree for fixture preview [13.16ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for conflict-radar]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [33.82ms]\n(pass) leaves another plugin pane untouched [20.87ms]\n(pass) valid controls and behavior on terminal [21.11ms]\n(pass) valid controls and behavior on desktop [19.65ms]\n(pass) capture native render tree for fixture preview [19.43ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.34s]\n[Captured native render tree for conflict-radar]\n"
         }
       ]
     },
@@ -237,7 +237,7 @@
         {
           "command": "claude plugin test mods/blame-view",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.75ms]\n(pass) leaves another plugin pane untouched [15.01ms]\n(pass) valid controls and behavior on terminal [16.95ms]\n(pass) valid controls and behavior on desktop [15.79ms]\n(pass) capture native render tree for fixture preview [12.56ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for blame-view]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [33.62ms]\n(pass) leaves another plugin pane untouched [21.08ms]\n(pass) valid controls and behavior on terminal [24.51ms]\n(pass) valid controls and behavior on desktop [22.43ms]\n(pass) capture native render tree for fixture preview [17.56ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.34s]\n[Captured native render tree for blame-view]\n"
         }
       ]
     },
@@ -253,7 +253,7 @@
         {
           "command": "claude plugin test mods/ignore-check",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.54ms]\n(pass) leaves another plugin pane untouched [15.14ms]\n(pass) valid controls and behavior on terminal [17.94ms]\n(pass) valid controls and behavior on desktop [14.36ms]\n(pass) capture native render tree for fixture preview [12.38ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for ignore-check]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [33.62ms]\n(pass) leaves another plugin pane untouched [21.02ms]\n(pass) valid controls and behavior on terminal [21.07ms]\n(pass) valid controls and behavior on desktop [19.58ms]\n(pass) capture native render tree for fixture preview [19.44ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.34s]\n[Captured native render tree for ignore-check]\n"
         }
       ]
     },
@@ -269,7 +269,7 @@
         {
           "command": "claude plugin test mods/file-tree",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.40ms]\n(pass) leaves another plugin pane untouched [14.96ms]\n(pass) valid controls and behavior on terminal [18.48ms]\n(pass) valid controls and behavior on desktop [13.66ms]\n(pass) capture native render tree for fixture preview [12.10ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for file-tree]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [90.02ms]\n(pass) leaves another plugin pane untouched [35.16ms]\n(pass) valid controls and behavior on terminal [40.22ms]\n(pass) valid controls and behavior on desktop [30.97ms]\n(pass) capture native render tree for fixture preview [21.96ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.57s]\n[Captured native render tree for file-tree]\n"
         }
       ]
     },
@@ -285,7 +285,7 @@
         {
           "command": "claude plugin test mods/package-scripts",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.49ms]\n(pass) leaves another plugin pane untouched [14.96ms]\n(pass) valid controls and behavior on terminal [16.93ms]\n(pass) valid controls and behavior on desktop [14.01ms]\n(pass) capture native render tree for fixture preview [12.42ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for package-scripts]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [85.71ms]\n(pass) leaves another plugin pane untouched [35.25ms]\n(pass) valid controls and behavior on terminal [35.71ms]\n(pass) valid controls and behavior on desktop [32.53ms]\n(pass) capture native render tree for fixture preview [22.30ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.57s]\n[Captured native render tree for package-scripts]\n"
         }
       ]
     },
@@ -301,7 +301,7 @@
         {
           "command": "claude plugin test mods/dependency-table",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.58ms]\n(pass) leaves another plugin pane untouched [15.02ms]\n(pass) valid controls and behavior on terminal [18.67ms]\n(pass) valid controls and behavior on desktop [14.74ms]\n(pass) capture native render tree for fixture preview [12.00ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for dependency-table]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [94.65ms]\n(pass) leaves another plugin pane untouched [35.48ms]\n(pass) valid controls and behavior on terminal [31.64ms]\n(pass) valid controls and behavior on desktop [31.08ms]\n(pass) capture native render tree for fixture preview [19.73ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.58s]\n[Captured native render tree for dependency-table]\n"
         }
       ]
     },
@@ -317,7 +317,7 @@
         {
           "command": "claude plugin test mods/todo-finder",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.38ms]\n(pass) leaves another plugin pane untouched [15.02ms]\n(pass) valid controls and behavior on terminal [14.91ms]\n(pass) valid controls and behavior on desktop [12.60ms]\n(pass) capture native render tree for fixture preview [11.78ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for todo-finder]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [83.52ms]\n(pass) leaves another plugin pane untouched [31.15ms]\n(pass) valid controls and behavior on terminal [38.13ms]\n(pass) valid controls and behavior on desktop [33.13ms]\n(pass) capture native render tree for fixture preview [23.67ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.57s]\n[Captured native render tree for todo-finder]\n"
         }
       ]
     },
@@ -333,7 +333,7 @@
         {
           "command": "claude plugin test mods/markdown-map",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.56ms]\n(pass) leaves another plugin pane untouched [14.97ms]\n(pass) valid controls and behavior on terminal [18.49ms]\n(pass) valid controls and behavior on desktop [15.89ms]\n(pass) capture native render tree for fixture preview [14.68ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for markdown-map]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [112.49ms]\n(pass) leaves another plugin pane untouched [123.01ms]\n(pass) valid controls and behavior on terminal [307.02ms]\n(pass) valid controls and behavior on desktop [116.16ms]\n(pass) capture native render tree for fixture preview [182.30ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [1.56s]\n[Captured native render tree for markdown-map]\n"
         }
       ]
     },
@@ -349,7 +349,7 @@
         {
           "command": "claude plugin test mods/json-browser",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.40ms]\n(pass) leaves another plugin pane untouched [15.03ms]\n(pass) valid controls and behavior on terminal [19.63ms]\n(pass) valid controls and behavior on desktop [15.54ms]\n(pass) capture native render tree for fixture preview [13.36ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for json-browser]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [111.10ms]\n(pass) leaves another plugin pane untouched [126.29ms]\n(pass) valid controls and behavior on terminal [291.79ms]\n(pass) valid controls and behavior on desktop [69.20ms]\n(pass) capture native render tree for fixture preview [88.53ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [1.45s]\n[Captured native render tree for json-browser]\n"
         }
       ]
     },
@@ -365,7 +365,7 @@
         {
           "command": "claude plugin test mods/csv-table",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.98ms]\n(pass) leaves another plugin pane untouched [14.72ms]\n(pass) valid controls and behavior on terminal [18.01ms]\n(pass) valid controls and behavior on desktop [16.83ms]\n(pass) capture native render tree for fixture preview [14.20ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for csv-table]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [124.06ms]\n(pass) leaves another plugin pane untouched [378.05ms]\n(pass) valid controls and behavior on terminal [81.55ms]\n(pass) valid controls and behavior on desktop [213.57ms]\n(pass) capture native render tree for fixture preview [215.42ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [1.69s]\n[Captured native render tree for csv-table]\n"
         }
       ]
     },
@@ -381,7 +381,7 @@
         {
           "command": "claude plugin test mods/log-viewer",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.58ms]\n(pass) leaves another plugin pane untouched [15.21ms]\n(pass) valid controls and behavior on terminal [17.64ms]\n(pass) valid controls and behavior on desktop [16.60ms]\n(pass) capture native render tree for fixture preview [13.56ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for log-viewer]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [134.27ms]\n(pass) leaves another plugin pane untouched [368.71ms]\n(pass) valid controls and behavior on terminal [78.60ms]\n(pass) valid controls and behavior on desktop [155.41ms]\n(pass) capture native render tree for fixture preview [129.59ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [1.66s]\n[Captured native render tree for log-viewer]\n"
         }
       ]
     },
@@ -397,7 +397,7 @@
         {
           "command": "claude plugin test mods/env-example",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.80ms]\n(pass) leaves another plugin pane untouched [14.96ms]\n(pass) valid controls and behavior on terminal [17.78ms]\n(pass) valid controls and behavior on desktop [16.23ms]\n(pass) capture native render tree for fixture preview [12.05ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for env-example]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [59.37ms]\n(pass) leaves another plugin pane untouched [35.55ms]\n(pass) valid controls and behavior on terminal [65.00ms]\n(pass) valid controls and behavior on desktop [46.53ms]\n(pass) capture native render tree for fixture preview [27.55ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.62s]\n[Captured native render tree for env-example]\n"
         }
       ]
     },
@@ -413,7 +413,7 @@
         {
           "command": "claude plugin test mods/file-compare",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.78ms]\n(pass) leaves another plugin pane untouched [14.66ms]\n(pass) valid controls and behavior on terminal [18.11ms]\n(pass) valid controls and behavior on desktop [15.15ms]\n(pass) capture native render tree for fixture preview [13.19ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for file-compare]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [61.40ms]\n(pass) leaves another plugin pane untouched [31.24ms]\n(pass) valid controls and behavior on terminal [62.53ms]\n(pass) valid controls and behavior on desktop [43.99ms]\n(pass) capture native render tree for fixture preview [30.34ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.62s]\n[Captured native render tree for file-compare]\n"
         }
       ]
     },
@@ -429,7 +429,7 @@
         {
           "command": "claude plugin test mods/scratchpad",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.31ms]\n(pass) leaves another plugin pane untouched [15.03ms]\n(pass) valid controls and behavior on terminal [19.46ms]\n(pass) valid controls and behavior on desktop [16.09ms]\n(pass) capture native render tree for fixture preview [14.56ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for scratchpad]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [60.55ms]\n(pass) leaves another plugin pane untouched [30.21ms]\n(pass) valid controls and behavior on terminal [69.09ms]\n(pass) valid controls and behavior on desktop [46.00ms]\n(pass) capture native render tree for fixture preview [30.67ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.62s]\n[Captured native render tree for scratchpad]\n"
         }
       ]
     },
@@ -445,7 +445,7 @@
         {
           "command": "claude plugin test mods/task-board",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [25.17ms]\n(pass) leaves another plugin pane untouched [14.90ms]\n(pass) valid controls and behavior on terminal [21.12ms]\n(pass) valid controls and behavior on desktop [17.18ms]\n(pass) capture native render tree for fixture preview [17.88ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.26s]\n[Captured native render tree for task-board]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [68.18ms]\n(pass) leaves another plugin pane untouched [50.70ms]\n(pass) valid controls and behavior on terminal [59.97ms]\n(pass) valid controls and behavior on desktop [41.10ms]\n(pass) capture native render tree for fixture preview [42.66ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.63s]\n[Captured native render tree for task-board]\n"
         }
       ]
     },
@@ -461,7 +461,7 @@
         {
           "command": "claude plugin test mods/decision-log",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [34.42ms]\n(pass) leaves another plugin pane untouched [21.16ms]\n(pass) valid controls and behavior on terminal [27.23ms]\n(pass) valid controls and behavior on desktop [25.34ms]\n(pass) capture native render tree for fixture preview [21.75ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.29s]\n[Captured native render tree for decision-log]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [59.90ms]\n(pass) leaves another plugin pane untouched [56.70ms]\n(pass) valid controls and behavior on terminal [66.44ms]\n(pass) valid controls and behavior on desktop [40.88ms]\n(pass) capture native render tree for fixture preview [52.13ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.60s]\n[Captured native render tree for decision-log]\n"
         }
       ]
     },
@@ -477,7 +477,7 @@
         {
           "command": "claude plugin test mods/snippet-shelf",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [36.34ms]\n(pass) leaves another plugin pane untouched [20.35ms]\n(pass) valid controls and behavior on terminal [26.07ms]\n(pass) valid controls and behavior on desktop [26.65ms]\n(pass) capture native render tree for fixture preview [19.74ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.28s]\n[Captured native render tree for snippet-shelf]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [72.00ms]\n(pass) leaves another plugin pane untouched [53.07ms]\n(pass) valid controls and behavior on terminal [80.95ms]\n(pass) valid controls and behavior on desktop [55.45ms]\n(pass) capture native render tree for fixture preview [68.71ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.64s]\n[Captured native render tree for snippet-shelf]\n"
         }
       ]
     },
@@ -493,7 +493,7 @@
         {
           "command": "claude plugin test mods/link-shelf",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [33.38ms]\n(pass) leaves another plugin pane untouched [21.58ms]\n(pass) valid controls and behavior on terminal [27.94ms]\n(pass) valid controls and behavior on desktop [24.72ms]\n(pass) capture native render tree for fixture preview [17.60ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.28s]\n[Captured native render tree for link-shelf]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [58.25ms]\n(pass) leaves another plugin pane untouched [52.31ms]\n(pass) valid controls and behavior on terminal [59.47ms]\n(pass) valid controls and behavior on desktop [46.72ms]\n(pass) capture native render tree for fixture preview [43.61ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.58s]\n[Captured native render tree for link-shelf]\n"
         }
       ]
     },
@@ -509,7 +509,7 @@
         {
           "command": "claude plugin test mods/prompt-shelf",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [34.79ms]\n(pass) leaves another plugin pane untouched [21.85ms]\n(pass) valid controls and behavior on terminal [29.47ms]\n(pass) valid controls and behavior on desktop [23.00ms]\n(pass) capture native render tree for fixture preview [20.94ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.29s]\n[Captured native render tree for prompt-shelf]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [62.78ms]\n(pass) leaves another plugin pane untouched [59.15ms]\n(pass) valid controls and behavior on terminal [68.58ms]\n(pass) valid controls and behavior on desktop [56.92ms]\n(pass) capture native render tree for fixture preview [63.28ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.62s]\n[Captured native render tree for prompt-shelf]\n"
         }
       ]
     },
@@ -525,7 +525,7 @@
         {
           "command": "claude plugin test mods/release-checklist",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [28.34ms]\n(pass) leaves another plugin pane untouched [15.89ms]\n(pass) valid controls and behavior on terminal [21.50ms]\n(pass) valid controls and behavior on desktop [17.49ms]\n(pass) capture native render tree for fixture preview [18.90ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.27s]\n[Captured native render tree for release-checklist]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [165.38ms]\n(pass) leaves another plugin pane untouched [37.68ms]\n(pass) valid controls and behavior on terminal [69.66ms]\n(pass) valid controls and behavior on desktop [119.04ms]\n(pass) capture native render tree for fixture preview [88.01ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [1.09s]\n[Captured native render tree for release-checklist]\n"
         }
       ]
     },
@@ -541,7 +541,7 @@
         {
           "command": "claude plugin test mods/handoff-notes",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [27.70ms]\n(pass) leaves another plugin pane untouched [16.31ms]\n(pass) valid controls and behavior on terminal [20.48ms]\n(pass) valid controls and behavior on desktop [17.87ms]\n(pass) capture native render tree for fixture preview [16.55ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.27s]\n[Captured native render tree for handoff-notes]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [152.08ms]\n(pass) leaves another plugin pane untouched [45.78ms]\n(pass) valid controls and behavior on terminal [54.88ms]\n(pass) valid controls and behavior on desktop [75.67ms]\n(pass) capture native render tree for fixture preview [68.17ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [1.00s]\n[Captured native render tree for handoff-notes]\n"
         }
       ]
     },
@@ -557,7 +557,7 @@
         {
           "command": "claude plugin test mods/regex-lab",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [26.33ms]\n(pass) leaves another plugin pane untouched [16.89ms]\n(pass) valid controls and behavior on terminal [16.60ms]\n(pass) valid controls and behavior on desktop [14.12ms]\n(pass) capture native render tree for fixture preview [16.97ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.26s]\n[Captured native render tree for regex-lab]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [78.37ms]\n(pass) leaves another plugin pane untouched [86.76ms]\n(pass) valid controls and behavior on terminal [68.12ms]\n(pass) valid controls and behavior on desktop [62.78ms]\n(pass) capture native render tree for fixture preview [70.63ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.99s]\n[Captured native render tree for regex-lab]\n"
         }
       ]
     },
@@ -573,7 +573,7 @@
         {
           "command": "claude plugin test mods/json-format",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [25.93ms]\n(pass) leaves another plugin pane untouched [15.57ms]\n(pass) valid controls and behavior on terminal [15.32ms]\n(pass) valid controls and behavior on desktop [14.41ms]\n(pass) capture native render tree for fixture preview [12.73ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for json-format]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [108.45ms]\n(pass) leaves another plugin pane untouched [41.62ms]\n(pass) valid controls and behavior on terminal [80.07ms]\n(pass) valid controls and behavior on desktop [58.71ms]\n(pass) capture native render tree for fixture preview [45.35ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.93s]\n[Captured native render tree for json-format]\n"
         }
       ]
     },
@@ -589,7 +589,7 @@
         {
           "command": "claude plugin test mods/url-lab",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.19ms]\n(pass) leaves another plugin pane untouched [14.70ms]\n(pass) valid controls and behavior on terminal [14.96ms]\n(pass) valid controls and behavior on desktop [13.47ms]\n(pass) capture native render tree for fixture preview [17.93ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for url-lab]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [48.14ms]\n(pass) leaves another plugin pane untouched [24.76ms]\n(pass) valid controls and behavior on terminal [35.57ms]\n(pass) valid controls and behavior on desktop [31.65ms]\n(pass) capture native render tree for fixture preview [28.09ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.43s]\n[Captured native render tree for url-lab]\n"
         }
       ]
     },
@@ -605,7 +605,7 @@
         {
           "command": "claude plugin test mods/base64-lab",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.05ms]\n(pass) leaves another plugin pane untouched [14.66ms]\n(pass) valid controls and behavior on terminal [20.29ms]\n(pass) valid controls and behavior on desktop [17.83ms]\n(pass) capture native render tree for fixture preview [19.51ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for base64-lab]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [46.95ms]\n(pass) leaves another plugin pane untouched [30.90ms]\n(pass) valid controls and behavior on terminal [31.21ms]\n(pass) valid controls and behavior on desktop [28.16ms]\n(pass) capture native render tree for fixture preview [31.88ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.43s]\n[Captured native render tree for base64-lab]\n"
         }
       ]
     },
@@ -621,7 +621,7 @@
         {
           "command": "claude plugin test mods/time-lab",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.06ms]\n(pass) leaves another plugin pane untouched [14.93ms]\n(pass) valid controls and behavior on terminal [18.25ms]\n(pass) valid controls and behavior on desktop [13.92ms]\n(pass) capture native render tree for fixture preview [21.03ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for time-lab]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [47.56ms]\n(pass) leaves another plugin pane untouched [25.99ms]\n(pass) valid controls and behavior on terminal [30.10ms]\n(pass) valid controls and behavior on desktop [24.80ms]\n(pass) capture native render tree for fixture preview [28.09ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.42s]\n[Captured native render tree for time-lab]\n"
         }
       ]
     },
@@ -637,7 +637,7 @@
         {
           "command": "claude plugin test mods/hash-lab",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [24.37ms]\n(pass) leaves another plugin pane untouched [14.76ms]\n(pass) valid controls and behavior on terminal [14.74ms]\n(pass) valid controls and behavior on desktop [13.56ms]\n(pass) capture native render tree for fixture preview [17.84ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.24s]\n[Captured native render tree for hash-lab]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [49.08ms]\n(pass) leaves another plugin pane untouched [26.61ms]\n(pass) valid controls and behavior on terminal [30.86ms]\n(pass) valid controls and behavior on desktop [26.57ms]\n(pass) capture native render tree for fixture preview [23.36ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.41s]\n[Captured native render tree for hash-lab]\n"
         }
       ]
     },
@@ -653,7 +653,7 @@
         {
           "command": "claude plugin test mods/color-lab",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [30.75ms]\n(pass) leaves another plugin pane untouched [19.29ms]\n(pass) valid controls and behavior on terminal [21.16ms]\n(pass) valid controls and behavior on desktop [16.68ms]\n(pass) capture native render tree for fixture preview [14.51ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.29s]\n[Captured native render tree for color-lab]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [50.12ms]\n(pass) leaves another plugin pane untouched [35.99ms]\n(pass) valid controls and behavior on terminal [32.08ms]\n(pass) valid controls and behavior on desktop [38.96ms]\n(pass) capture native render tree for fixture preview [31.31ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.48s]\n[Captured native render tree for color-lab]\n"
         }
       ]
     },
@@ -669,7 +669,7 @@
         {
           "command": "claude plugin test mods/uuid-lab",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [27.24ms]\n(pass) leaves another plugin pane untouched [19.83ms]\n(pass) valid controls and behavior on terminal [19.52ms]\n(pass) valid controls and behavior on desktop [15.93ms]\n(pass) capture native render tree for fixture preview [15.45ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.29s]\n[Captured native render tree for uuid-lab]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [49.22ms]\n(pass) leaves another plugin pane untouched [39.21ms]\n(pass) valid controls and behavior on terminal [36.61ms]\n(pass) valid controls and behavior on desktop [41.42ms]\n(pass) capture native render tree for fixture preview [41.59ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.49s]\n[Captured native render tree for uuid-lab]\n"
         }
       ]
     },
@@ -685,7 +685,7 @@
         {
           "command": "claude plugin test mods/text-counter",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [27.03ms]\n(pass) leaves another plugin pane untouched [20.64ms]\n(pass) valid controls and behavior on terminal [19.50ms]\n(pass) valid controls and behavior on desktop [15.47ms]\n(pass) capture native render tree for fixture preview [14.32ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.29s]\n[Captured native render tree for text-counter]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [46.35ms]\n(pass) leaves another plugin pane untouched [28.52ms]\n(pass) valid controls and behavior on terminal [37.72ms]\n(pass) valid controls and behavior on desktop [35.03ms]\n(pass) capture native render tree for fixture preview [31.62ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.47s]\n[Captured native render tree for text-counter]\n"
         }
       ]
     },
@@ -701,7 +701,7 @@
         {
           "command": "claude plugin test mods/ascii-flipbook",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [30.33ms]\n(pass) leaves another plugin pane untouched [17.78ms]\n(pass) valid controls and behavior on terminal [25.45ms]\n(pass) valid controls and behavior on desktop [23.19ms]\n(pass) capture native render tree for fixture preview [12.46ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.30s]\n[Captured native render tree for ascii-flipbook]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [51.16ms]\n(pass) leaves another plugin pane untouched [39.09ms]\n(pass) valid controls and behavior on terminal [36.51ms]\n(pass) valid controls and behavior on desktop [35.75ms]\n(pass) capture native render tree for fixture preview [32.33ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.48s]\n[Captured native render tree for ascii-flipbook]\n"
         }
       ]
     },
@@ -717,7 +717,7 @@
         {
           "command": "claude plugin test mods/focus-clock",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [32.82ms]\n(pass) leaves another plugin pane untouched [15.96ms]\n(pass) valid controls and behavior on terminal [17.84ms]\n(pass) valid controls and behavior on desktop [16.13ms]\n(pass) capture native render tree for fixture preview [84.79ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.33s]\n[Captured native render tree for focus-clock]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [46.11ms]\n(pass) leaves another plugin pane untouched [28.17ms]\n(pass) valid controls and behavior on terminal [46.29ms]\n(pass) valid controls and behavior on desktop [78.94ms]\n(pass) capture native render tree for fixture preview [163.82ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.62s]\n[Captured native render tree for focus-clock]\n"
         }
       ]
     },
@@ -733,7 +733,7 @@
         {
           "command": "claude plugin test mods/stopwatch",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [33.45ms]\n(pass) leaves another plugin pane untouched [14.82ms]\n(pass) valid controls and behavior on terminal [21.97ms]\n(pass) valid controls and behavior on desktop [16.92ms]\n(pass) capture native render tree for fixture preview [28.53ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.28s]\n[Captured native render tree for stopwatch]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [43.10ms]\n(pass) leaves another plugin pane untouched [26.99ms]\n(pass) valid controls and behavior on terminal [41.03ms]\n(pass) valid controls and behavior on desktop [71.14ms]\n(pass) capture native render tree for fixture preview [62.35ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.49s]\n[Captured native render tree for stopwatch]\n"
         }
       ]
     },
@@ -749,7 +749,7 @@
         {
           "command": "claude plugin test mods/test-ledger",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [32.25ms]\n(pass) leaves another plugin pane untouched [15.01ms]\n(pass) valid controls and behavior on terminal [15.33ms]\n(pass) valid controls and behavior on desktop [14.60ms]\n(pass) capture native render tree for fixture preview [14.39ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for test-ledger]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [44.72ms]\n(pass) leaves another plugin pane untouched [37.39ms]\n(pass) valid controls and behavior on terminal [88.60ms]\n(pass) valid controls and behavior on desktop [43.17ms]\n(pass) capture native render tree for fixture preview [26.32ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.48s]\n[Captured native render tree for test-ledger]\n"
         }
       ]
     },
@@ -765,7 +765,7 @@
         {
           "command": "claude plugin test mods/command-history",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [32.33ms]\n(pass) leaves another plugin pane untouched [15.14ms]\n(pass) valid controls and behavior on terminal [17.93ms]\n(pass) valid controls and behavior on desktop [14.99ms]\n(pass) capture native render tree for fixture preview [13.65ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.25s]\n[Captured native render tree for command-history]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [43.48ms]\n(pass) leaves another plugin pane untouched [31.61ms]\n(pass) valid controls and behavior on terminal [97.78ms]\n(pass) valid controls and behavior on desktop [37.52ms]\n(pass) capture native render tree for fixture preview [23.91ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.48s]\n[Captured native render tree for command-history]\n"
         }
       ]
     },
@@ -781,7 +781,7 @@
         {
           "command": "claude plugin test mods/scope-watch",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [21.07ms]\n(pass) leaves another plugin pane untouched [12.99ms]\n(pass) valid controls and behavior on terminal [13.03ms]\n(pass) valid controls and behavior on desktop [12.57ms]\n(pass) capture native render tree for fixture preview [12.58ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.21s]\n[Captured native render tree for scope-watch]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [60.11ms]\n(pass) leaves another plugin pane untouched [41.05ms]\n(pass) valid controls and behavior on terminal [39.73ms]\n(pass) valid controls and behavior on desktop [32.24ms]\n(pass) capture native render tree for fixture preview [26.98ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.68s]\n[Captured native render tree for scope-watch]\n"
         }
       ]
     },
@@ -797,7 +797,327 @@
         {
           "command": "claude plugin test mods/read-only-mode",
           "exitCode": 0,
-          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [20.98ms]\n(pass) leaves another plugin pane untouched [13.09ms]\n(pass) valid controls and behavior on terminal [13.82ms]\n(pass) valid controls and behavior on desktop [12.72ms]\n(pass) capture native render tree for fixture preview [11.91ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.21s]\n[Captured native render tree for read-only-mode]\n"
+          "output": "\ntests/register.test.ts:\n(pass) registers an immediate command and opens only its pane [61.15ms]\n(pass) leaves another plugin pane untouched [40.58ms]\n(pass) valid controls and behavior on terminal [33.78ms]\n(pass) valid controls and behavior on desktop [33.89ms]\n(pass) capture native render tree for fixture preview [28.34ms]\n\n 5 pass\n 0 fail\nRan 5 tests across 1 file. [0.67s]\n[Captured native render tree for read-only-mode]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-usage-strip",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-usage-strip --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-usage-strip/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-usage-strip/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-usage-strip}, turn.step, ui.render{component=AbovePrompt}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.clock.every, $.clock.now, $.command.register, $.session.usage, $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-usage-strip",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [69.98ms]\n(pass) other pane remains untouched [29.19ms]\n(pass) desktop controls at width 36 [42.29ms]\n(pass) desktop controls at width 84 [35.95ms]\n(pass) explains unsupported surface terminal [17.07ms]\n(pass) explains unsupported surface null [21.16ms]\n(pass) capture native render tree for fixture preview [28.10ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.51s]\n[Captured native render tree for desktop-usage-strip]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-context-map",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-context-map --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-context-map/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-context-map/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-context-map}, turn.complete, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.session.usage, $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-context-map",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [66.07ms]\n(pass) other pane remains untouched [29.08ms]\n(pass) desktop controls at width 36 [37.15ms]\n(pass) desktop controls at width 84 [24.75ms]\n(pass) explains unsupported surface terminal [20.18ms]\n(pass) explains unsupported surface null [18.39ms]\n(pass) capture native render tree for fixture preview [25.22ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.49s]\n[Captured native render tree for desktop-context-map]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-quota-clock",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-quota-clock --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-quota-clock/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-quota-clock/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-quota-clock}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.clock.every, $.clock.now (via draw), $.command.register, $.session.usage (via draw), $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-quota-clock",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [69.50ms]\n(pass) other pane remains untouched [29.98ms]\n(pass) desktop controls at width 36 [34.97ms]\n(pass) desktop controls at width 84 [27.61ms]\n(pass) explains unsupported surface terminal [20.98ms]\n(pass) explains unsupported surface null [18.25ms]\n(pass) capture native render tree for fixture preview [26.00ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.50s]\n[Captured native render tree for desktop-quota-clock]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-cost-watch",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-cost-watch --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-cost-watch/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-cost-watch/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-cost-watch}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.session.usage (via draw), $.store.get, $.store.set (via draw), $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-cost-watch",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [66.32ms]\n(pass) other pane remains untouched [34.98ms]\n(pass) desktop controls at width 36 [35.55ms]\n(pass) desktop controls at width 84 [29.68ms]\n(pass) explains unsupported surface terminal [19.32ms]\n(pass) explains unsupported surface null [20.21ms]\n(pass) capture native render tree for fixture preview [22.20ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.50s]\n[Captured native render tree for desktop-cost-watch]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-token-flow",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-token-flow --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-token-flow/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-token-flow/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-token-flow}, turn.step, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-token-flow",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [35.49ms]\n(pass) other pane remains untouched [25.57ms]\n(pass) desktop controls at width 36 [26.52ms]\n(pass) desktop controls at width 84 [21.87ms]\n(pass) explains unsupported surface terminal [19.58ms]\n(pass) explains unsupported surface null [19.89ms]\n(pass) capture native render tree for fixture preview [21.47ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.37s]\n[Captured native render tree for desktop-token-flow]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-tool-pulse",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-tool-pulse --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-tool-pulse/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-tool-pulse/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-tool-pulse}, tool.call, ui.render{component=Pane}\n  \u276f ./register.js calls: $.clock.now, $.command.register, $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-tool-pulse",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [35.96ms]\n(pass) other pane remains untouched [23.55ms]\n(pass) desktop controls at width 36 [29.37ms]\n(pass) desktop controls at width 84 [22.65ms]\n(pass) explains unsupported surface terminal [19.68ms]\n(pass) explains unsupported surface null [19.72ms]\n(pass) capture native render tree for fixture preview [20.86ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.37s]\n[Captured native render tree for desktop-tool-pulse]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-turn-chart",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-turn-chart --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-turn-chart/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-turn-chart/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-turn-chart}, turn.complete, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-turn-chart",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [35.46ms]\n(pass) other pane remains untouched [27.04ms]\n(pass) desktop controls at width 36 [25.63ms]\n(pass) desktop controls at width 84 [25.01ms]\n(pass) explains unsupported surface terminal [18.92ms]\n(pass) explains unsupported surface null [15.29ms]\n(pass) capture native render tree for fixture preview [21.46ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.37s]\n[Captured native render tree for desktop-turn-chart]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-edit-map",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-edit-map --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-edit-map/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-edit-map/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-edit-map}, tool.call{tool=Edit|Write}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-edit-map",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [35.47ms]\n(pass) other pane remains untouched [27.06ms]\n(pass) desktop controls at width 36 [26.82ms]\n(pass) desktop controls at width 84 [25.62ms]\n(pass) explains unsupported surface terminal [19.28ms]\n(pass) explains unsupported surface null [14.64ms]\n(pass) capture native render tree for fixture preview [22.48ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.37s]\n[Captured native render tree for desktop-edit-map]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-agent-desk",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-agent-desk --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-agent-desk/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-agent-desk/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-agent-desk}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.agent.list (via draw), $.command.register, $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-agent-desk",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [37.66ms]\n(pass) other pane remains untouched [26.37ms]\n(pass) desktop controls at width 36 [49.55ms]\n(pass) desktop controls at width 84 [20.59ms]\n(pass) explains unsupported surface terminal [19.02ms]\n(pass) explains unsupported surface null [15.50ms]\n(pass) capture native render tree for fixture preview [24.31ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.38s]\n[Captured native render tree for desktop-agent-desk]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-review-desk",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-review-desk --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-review-desk/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-review-desk/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-review-desk}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.process.run (via load), $.session.cwd (via load), $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-review-desk",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [38.67ms]\n(pass) other pane remains untouched [24.31ms]\n(pass) desktop controls at width 36 [49.49ms]\n(pass) desktop controls at width 84 [29.57ms]\n(pass) explains unsupported surface terminal [18.77ms]\n(pass) explains unsupported surface null [17.71ms]\n(pass) capture native render tree for fixture preview [21.51ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.39s]\n[Captured native render tree for desktop-review-desk]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-file-desk",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-file-desk --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-file-desk/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-file-desk/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-file-desk}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.fs.read (via readText), $.fs.stat (via readText), $.prompt.fill (via draw), $.session.cwd (via readText), $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-file-desk",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [38.24ms]\n(pass) other pane remains untouched [24.74ms]\n(pass) desktop controls at width 36 [51.46ms]\n(pass) desktop controls at width 84 [24.33ms]\n(pass) explains unsupported surface terminal [18.53ms]\n(pass) explains unsupported surface null [16.80ms]\n(pass) capture native render tree for fixture preview [21.61ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.39s]\n[Captured native render tree for desktop-file-desk]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-markdown-reader",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-markdown-reader --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-markdown-reader/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-markdown-reader/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-markdown-reader}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.fs.read (via readText), $.fs.stat (via readText), $.session.cwd (via readText), $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-markdown-reader",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [38.79ms]\n(pass) other pane remains untouched [24.13ms]\n(pass) desktop controls at width 36 [54.03ms]\n(pass) desktop controls at width 84 [26.26ms]\n(pass) explains unsupported surface terminal [16.83ms]\n(pass) explains unsupported surface null [18.73ms]\n(pass) capture native render tree for fixture preview [19.32ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.39s]\n[Captured native render tree for desktop-markdown-reader]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-compare-desk",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-compare-desk --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-compare-desk/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-compare-desk/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-compare-desk}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.fs.read (via readText), $.fs.stat (via readText), $.session.cwd (via readText), $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-compare-desk",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [34.54ms]\n(pass) other pane remains untouched [24.86ms]\n(pass) desktop controls at width 36 [25.72ms]\n(pass) desktop controls at width 84 [26.00ms]\n(pass) explains unsupported surface terminal [15.93ms]\n(pass) explains unsupported surface null [16.34ms]\n(pass) capture native render tree for fixture preview [22.68ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.36s]\n[Captured native render tree for desktop-compare-desk]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-prompt-builder",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-prompt-builder --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-prompt-builder/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-prompt-builder/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-prompt-builder}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.prompt.fill (via draw), $.store.get, $.store.set (via draw), $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-prompt-builder",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [34.53ms]\n(pass) other pane remains untouched [20.93ms]\n(pass) desktop controls at width 36 [25.28ms]\n(pass) desktop controls at width 84 [23.28ms]\n(pass) explains unsupported surface terminal [16.58ms]\n(pass) explains unsupported surface null [17.27ms]\n(pass) capture native render tree for fixture preview [23.56ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.35s]\n[Captured native render tree for desktop-prompt-builder]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-session-brief",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-session-brief --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-session-brief/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-session-brief/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-session-brief}, tool.call, turn.complete, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.session.cwd (via draw), $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-session-brief",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [35.25ms]\n(pass) other pane remains untouched [22.57ms]\n(pass) desktop controls at width 36 [28.80ms]\n(pass) desktop controls at width 84 [28.16ms]\n(pass) explains unsupported surface terminal [16.53ms]\n(pass) explains unsupported surface null [19.17ms]\n(pass) capture native render tree for fixture preview [18.55ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.36s]\n[Captured native render tree for desktop-session-brief]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-bookmark-dock",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-bookmark-dock --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-bookmark-dock/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-bookmark-dock/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-bookmark-dock}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.store.delete (via draw), $.store.get (via load), $.store.keys (via draw, load), $.store.set (via draw), $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-bookmark-dock",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [34.91ms]\n(pass) other pane remains untouched [23.55ms]\n(pass) desktop controls at width 36 [26.72ms]\n(pass) desktop controls at width 84 [32.98ms]\n(pass) explains unsupported surface terminal [16.28ms]\n(pass) explains unsupported surface null [16.67ms]\n(pass) capture native render tree for fixture preview [19.56ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.37s]\n[Captured native render tree for desktop-bookmark-dock]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-checklist-desk",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-checklist-desk --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-checklist-desk/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-checklist-desk/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-checklist-desk}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.clock.now (via draw), $.command.register, $.store.delete (via draw), $.store.get (via draw, load), $.store.keys (via draw, load), $.store.set (via draw), $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-checklist-desk",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [36.19ms]\n(pass) other pane remains untouched [33.77ms]\n(pass) desktop controls at width 36 [43.72ms]\n(pass) desktop controls at width 84 [50.01ms]\n(pass) explains unsupported surface terminal [18.77ms]\n(pass) explains unsupported surface null [18.67ms]\n(pass) capture native render tree for fixture preview [29.67ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.45s]\n[Captured native render tree for desktop-checklist-desk]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-workspace-home",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-workspace-home --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-workspace-home/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-workspace-home/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-workspace-home}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.process.run (via load), $.session.cwd (via draw, load), $.session.usage (via draw), $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-workspace-home",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [41.21ms]\n(pass) other pane remains untouched [30.26ms]\n(pass) desktop controls at width 36 [30.09ms]\n(pass) desktop controls at width 84 [38.23ms]\n(pass) explains unsupported surface terminal [22.55ms]\n(pass) explains unsupported surface null [16.31ms]\n(pass) capture native render tree for fixture preview [26.20ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.42s]\n[Captured native render tree for desktop-workspace-home]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-break-bell",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-break-bell --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-break-bell/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-break-bell/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-break-bell}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.clock.every, $.clock.now, $.command.register, $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-break-bell",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [35.98ms]\n(pass) other pane remains untouched [27.75ms]\n(pass) desktop controls at width 36 [132.43ms]\n(pass) desktop controls at width 84 [96.36ms]\n(pass) explains unsupported surface terminal [14.98ms]\n(pass) explains unsupported surface null [11.73ms]\n(pass) capture native render tree for fixture preview [105.30ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.64s]\n[Captured native render tree for desktop-break-bell]\n"
+        }
+      ]
+    },
+    {
+      "id": "desktop-json-desk",
+      "passed": true,
+      "checks": [
+        {
+          "command": "claude plugin validate mods/desktop-json-desk --strict",
+          "exitCode": 0,
+          "output": "Validating plugin manifest: ./mods/desktop-json-desk/.claude-plugin/plugin.json\n\nValidating hooks: ./mods/desktop-json-desk/hooks/hooks.json\n\n  \u276f ./register.js hooks: session.start, command.run{command=desktop-json-desk}, ui.render{component=Pane}\n  \u276f ./register.js calls: $.command.register, $.ui.copy (via draw), $.ui.invalidate, $.ui.open, $.ui.resolve, $.ui.toast (via draw)\n\n\u2714 Validation passed\n"
+        },
+        {
+          "command": "claude plugin test mods/desktop-json-desk",
+          "exitCode": 0,
+          "output": "\ntests/register.test.ts:\n(pass) desktop command opens only on request [36.76ms]\n(pass) other pane remains untouched [31.97ms]\n(pass) desktop controls at width 36 [32.82ms]\n(pass) desktop controls at width 84 [38.53ms]\n(pass) explains unsupported surface terminal [24.55ms]\n(pass) explains unsupported surface null [19.42ms]\n(pass) capture native render tree for fixture preview [26.12ms]\n\n 7 pass\n 0 fail\nRan 7 tests across 1 file. [0.43s]\n[Captured native render tree for desktop-json-desk]\n"
         }
       ]
     }

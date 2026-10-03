@@ -651,3 +651,6 @@ public=[{k:m[k] for k in ['id','title','category','description','use','access','
 marketplace={'name':'awesome-claude-code-mods','owner':{'name':'Yash Thakker'},'metadata':{'description':'50 independent MIT-licensed Claude Code mods','version':'1.0.0'},'plugins':[{'name':m['id'],'source':'./mods/'+m['id'],'description':m['description'],'version':'1.0.0','category':m['category'].lower()} for m in MODS]}
 (ROOT/'.claude-plugin/marketplace.json').write_text(json.dumps(marketplace,indent=2)+'\n')
 print('Built',len(MODS),'standalone mods')
+# Keep the Desktop expansion registered when regenerating the base collection.
+from runpy import run_path
+run_path(str(ROOT/'scripts/build-desktop-mods.py'),run_name='__main__')

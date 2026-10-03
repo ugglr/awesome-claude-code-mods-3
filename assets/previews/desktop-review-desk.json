@@ -1,0 +1,89 @@
+{
+  "id": "desktop-review-desk",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Review Desk"
+        ]
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "columnGap": 2,
+          "flexWrap": "wrap"
+        },
+        "children": [
+          {
+            "type": "Button",
+            "props": {
+              "key": "tab-status",
+              "label": "status"
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "tab-staged",
+              "label": "staged \u2713"
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "tab-unstaged",
+              "label": "unstaged"
+            }
+          }
+        ]
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "@@ -1 +1 @@\n-old label\n+new label\n",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "reload",
+          "label": "Reload Git"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy visible report"
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Read-only Git inspection. No staging, commits, or command execution from the diff."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "4621d7eea7c1071a31cafb5a0190ad3787d14aa8c34d6e9b173f3e3b42d8e22c"
+}

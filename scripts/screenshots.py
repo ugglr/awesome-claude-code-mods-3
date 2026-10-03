@@ -25,17 +25,19 @@ with sync_playwright() as p:
   print('Captured '+m['id'],flush=True)
  # Verify the gallery really searches and filters, with every image loaded.
  page.goto((ROOT/'gallery.html').as_uri())
- assert page.locator('.card').count()==50
+ assert page.locator('.card').count()==len(catalog)
  page.locator('#search').fill('checksum')
  assert page.locator('.card:visible').count()==1
  page.locator('#search').fill('')
  page.locator('#category').select_option('Git')
  assert page.locator('.card:visible').count()==8
+ page.locator('#category').select_option('Desktop')
+ assert page.locator('.card:visible').count()==20
  page.locator('#category').select_option('')
  page.set_viewport_size({'width':390,'height':844})
  assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
- assert page.locator('.card:visible').count()==50
+ assert page.locator('.card:visible').count()==len(catalog)
  page.screenshot(path=str(ROOT/'assets/screenshots/gallery-mobile.png'))
  browser.close()
 (ROOT/'assets/screenshots/manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
-print('50 screenshots and gallery browser checks passed')
+print(str(len(catalog))+' screenshots and gallery browser checks passed')

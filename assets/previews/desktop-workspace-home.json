@@ -1,0 +1,112 @@
+{
+  "id": "desktop-workspace-home",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Workspace Home"
+        ]
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "/work"
+        ]
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "gap": 2
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "flexDirection": "column",
+              "flexGrow": 1
+            },
+            "children": [
+              {
+                "type": "Text",
+                "children": [
+                  "Workspace Git state"
+                ]
+              },
+              {
+                "type": "Code",
+                "props": {
+                  "source": "## feature/mod-gallery\n M src/index.ts\n?? docs/notes.md\n",
+                  "language": "text"
+                }
+              }
+            ]
+          },
+          {
+            "type": "Box",
+            "props": {
+              "flexDirection": "column",
+              "flexGrow": 1
+            },
+            "children": [
+              {
+                "type": "Text",
+                "children": [
+                  "Session context: 42%"
+                ]
+              },
+              {
+                "type": "Text",
+                "children": [
+                  "Reported USD: 1.20"
+                ]
+              },
+              {
+                "type": "Text",
+                "children": [
+                  "Plan windows: 2"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy workspace path"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "reload",
+          "label": "Reload Git state"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "e3131facc93f08b478f39df25ebb23e6a9ad512693c8ff352a2f8fc44412865c"
+}

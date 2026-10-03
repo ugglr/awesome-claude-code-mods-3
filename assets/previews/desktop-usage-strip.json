@@ -1,0 +1,52 @@
+{
+  "id": "desktop-usage-strip",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Usage Strip"
+        ]
+      },
+      {
+        "type": "Svg",
+        "props": {
+          "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"672\" height=\"80\" viewBox=\"0 0 672 80\"><rect x=\"4\" y=\"4\" width=\"160.5\" height=\"32\" rx=\"16\" fill=\"#bbdbc6\"/><text x=\"16\" y=\"25\" font-family=\"system-ui\" font-size=\"12\" fill=\"#202523\">five_hour 37% \u00b7 3h 0m</text><rect x=\"172.5\" y=\"4\" width=\"173.5\" height=\"32\" rx=\"16\" fill=\"#d4c8ed\"/><text x=\"184.5\" y=\"25\" font-family=\"system-ui\" font-size=\"12\" fill=\"#202523\">seven_day 61% \u00b7 144h 0m</text><rect x=\"354\" y=\"4\" width=\"95.5\" height=\"32\" rx=\"16\" fill=\"#cbd5ed\"/><text x=\"366\" y=\"25\" font-family=\"system-ui\" font-size=\"12\" fill=\"#202523\">Context 42%</text><rect x=\"457.5\" y=\"4\" width=\"76\" height=\"32\" rx=\"16\" fill=\"#edcfbd\"/><text x=\"469.5\" y=\"25\" font-family=\"system-ui\" font-size=\"12\" fill=\"#202523\">Input 20</text><rect x=\"541.5\" y=\"4\" width=\"82.5\" height=\"32\" rx=\"16\" fill=\"#bddec9\"/><text x=\"553.5\" y=\"25\" font-family=\"system-ui\" font-size=\"12\" fill=\"#202523\">Output 10</text><rect x=\"4\" y=\"44\" width=\"128\" height=\"32\" rx=\"16\" fill=\"#ccd6f1\"/><text x=\"16\" y=\"65\" font-family=\"system-ui\" font-size=\"12\" fill=\"#202523\">Cache read 1,000</text><rect x=\"140\" y=\"44\" width=\"76\" height=\"32\" rx=\"16\" fill=\"#e7d6a7\"/><text x=\"152\" y=\"65\" font-family=\"system-ui\" font-size=\"12\" fill=\"#202523\">USD 1.20</text></svg>",
+          "alt": "five_hour 37% \u00b7 3h 0m; seven_day 61% \u00b7 144h 0m; Context 42%; Input 20; Output 10; Cache read 1,000; USD 1.20",
+          "height": 80
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Token totals: latest 1 observed requests. USD is the engine session ledger, not a subscription charge."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "toggle",
+          "label": "Hide composer strip"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "7d4f0069a5308eca3259fbd49cda87b612b60b88d92fb9189088abc07d603ca6"
+}

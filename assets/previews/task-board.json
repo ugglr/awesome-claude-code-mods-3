@@ -55,7 +55,7 @@
             "type": "Button",
             "props": {
               "key": "toggle-0",
-              "label": "[x] Review the keyboard controls",
+              "label": "[x] Verify empty states on mobile",
               "plain": true
             }
           },
@@ -80,7 +80,7 @@
             "type": "Button",
             "props": {
               "key": "toggle-1",
-              "label": "[ ] Verify empty states on mobile",
+              "label": "[ ] Review the keyboard controls",
               "plain": true
             }
           },

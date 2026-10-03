@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-03",
+  "claudeCode": "2.1.288",
+  "command": "claude --plugin-dir ./mods -p '/desktop-usage-strip'",
+  "exitCode": 0,
+  "uniqueHooksModulesLoaded": 70,
+  "desktopHooksModulesLoaded": 20,
+  "moduleLoadFailures": 0,
+  "skippedHookDiagnostics": 0,
+  "expectedCodeTabExplanationPresent": true,
+  "limits": "Headless plugin loading and command dispatch only. No native Desktop painting or keyboard acceptance. Raw debug output is not committed."
+}

@@ -1,0 +1,67 @@
+{
+  "id": "desktop-session-brief",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Session Brief"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Counts begin at plugin load; tool completion does not prove a task passed."
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "note",
+          "label": "Next step / handoff",
+          "value": "Review the staged patch and run focused checks",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "Workspace: /work\nObserved turns: 1\nObserved tools: 0\nTool errors/refusals: 0\nUser note: Review the staged patch and run focused checks",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy brief"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "clear",
+          "label": "Clear counters and note"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "d835e5a4b0d4bf8be0ee4f9c7b4e6d6e946045d30f941fc5cad7629f245cfe2a"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "desktop-markdown-reader",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Markdown Reader"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "path",
+          "label": "Markdown file",
+          "value": "README.md",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "columnGap": 2,
+          "flexWrap": "wrap"
+        },
+        "children": [
+          {
+            "type": "Button",
+            "props": {
+              "key": "tab-preview",
+              "label": "preview"
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "tab-source",
+              "label": "source"
+            }
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Loaded README.md"
+        ]
+      },
+      {
+        "type": "Markdown",
+        "props": {
+          "text": "# Demo application\n\n## Setup\n```md\n# not a heading\n```\n### Tests\n"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy Markdown source"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "6e1ff4f8ab71b6eb08e13aaf1a6cdc325e3b9c9136d16f04ed65c77fc8317fc5"
+}

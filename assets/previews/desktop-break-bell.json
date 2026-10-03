@@ -1,0 +1,87 @@
+{
+  "id": "desktop-break-bell",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Break Bell"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "minutes",
+          "label": "Minutes (1\u2013180)",
+          "value": "15",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Text",
+        "props": {
+          "bold": true
+        },
+        "children": [
+          "13:00"
+        ]
+      },
+      {
+        "type": "Svg",
+        "props": {
+          "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 580 70\" width=\"580\" height=\"70\"><rect width=\"580\" height=\"70\" rx=\"12\" fill=\"#182234\"/><text x=\"12\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">Interval elapsed</text><rect x=\"180\" y=\"12\" width=\"41.33333333333332\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">13.3</text></svg>",
+          "alt": "Interval elapsed: 13.333%",
+          "height": 70
+        }
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "columnGap": 2,
+          "flexWrap": "wrap"
+        },
+        "children": [
+          {
+            "type": "Button",
+            "props": {
+              "key": "start",
+              "label": "Pause"
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "reset",
+              "label": "Reset"
+            }
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Timer reset."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "3b3da8b0355248413aac055fb7af2ddbcee3058b69a768313e97572b96533192"
+}

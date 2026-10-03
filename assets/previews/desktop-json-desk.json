@@ -1,0 +1,132 @@
+{
+  "id": "desktop-json-desk",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop JSON Desk"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "source",
+          "label": "JSON",
+          "value": "{\"name\":\"desktop-mods\",\"ready\":true,\"tools\":[\"usage-strip\",\"review-desk\"]}",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "filter",
+          "label": "Filter top-level keys",
+          "value": "",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Valid JSON."
+        ]
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "gap": 2
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "flexDirection": "column",
+              "flexGrow": 1
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "bold": true
+                },
+                "children": [
+                  "Keys (up to 50)"
+                ]
+              },
+              {
+                "type": "Text",
+                "children": [
+                  "name \u00b7 string"
+                ]
+              },
+              {
+                "type": "Text",
+                "children": [
+                  "ready \u00b7 boolean"
+                ]
+              },
+              {
+                "type": "Text",
+                "children": [
+                  "tools \u00b7 array"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Box",
+            "props": {
+              "flexDirection": "column",
+              "flexGrow": 1
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "bold": true
+                },
+                "children": [
+                  "Formatted preview"
+                ]
+              },
+              {
+                "type": "Code",
+                "props": {
+                  "source": "{\n  \"name\": \"desktop-mods\",\n  \"ready\": true,\n  \"tools\": [\n    \"usage-strip\",\n    \"review-desk\"\n  ]\n}",
+                  "language": "text"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy formatted JSON"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "9fc9ff1c3abb23edcc371aa686305b7c058ca2816021122555f7b887869e5400"
+}

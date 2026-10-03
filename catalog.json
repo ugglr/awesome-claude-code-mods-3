@@ -448,5 +448,205 @@
     "use": "Use a session for inspection with an extra visible guard.",
     "access": "Refuses selected tool.call events when manually enabled. No permission approvals. Not a security boundary; other tools/mods can write.",
     "sample": ""
+  },
+  {
+    "id": "desktop-usage-strip",
+    "title": "Desktop Usage Strip",
+    "category": "Desktop",
+    "description": "Show quota, reset countdowns, tokens, and cost in a composer strip.",
+    "use": "Keep the reference image\u2019s usage information beside your prompt.",
+    "access": "Reads reported session usage; missing figures remain labeled not reported. No pricing guesses or subscription billing calculation. Observes the latest 30 API requests in memory. Draws a composable AbovePrompt band on Desktop where the host exposes it; the command pane always offers the full display. Refreshes countdowns every minute.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-context-map",
+    "title": "Desktop Context Map",
+    "category": "Desktop",
+    "description": "Chart context headroom and sampled window growth.",
+    "use": "Spot a filling context window visually.",
+    "access": "Reads reported session usage; missing figures remain labeled not reported. No pricing guesses or subscription billing calculation. Samples after observed completed turns; latest 12 samples, reset on reload.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-quota-clock",
+    "title": "Desktop Quota Clock",
+    "category": "Desktop",
+    "description": "Chart reported plan windows with live reset countdowns.",
+    "use": "See when each quota window is due to reset.",
+    "access": "Reads reported session usage; missing figures remain labeled not reported. No pricing guesses or subscription billing calculation. Clock redraws once per minute; reaching zero does not invent a new quota reading.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-cost-watch",
+    "title": "Desktop Cost Watch",
+    "category": "Desktop",
+    "description": "Set a local budget reminder against reported session USD.",
+    "use": "Keep a session cost target visible without changing tool permissions.",
+    "access": "Reads reported session usage; missing figures remain labeled not reported. No pricing guesses or subscription billing calculation. Saves a user-entered budget per workspace in the local plugin store. Does not enforce a spending limit.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-token-flow",
+    "title": "Desktop Token Flow",
+    "category": "Desktop",
+    "description": "Chart uncached input, output, cache reads, and cache writes.",
+    "use": "Compare token sources across observed requests.",
+    "access": "Observes API usage from the latest 30 completed requests in memory; includes any agent requests routed through the session. No model calls.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-tool-pulse",
+    "title": "Desktop Tool Pulse",
+    "category": "Desktop",
+    "description": "Chart completed tool latency and failures by tool.",
+    "use": "See which observed tools take time or fail.",
+    "access": "Observes tool names, completion/refusal/error state and local clock durations for the latest 100 calls. Does not save command arguments or tool results.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-turn-chart",
+    "title": "Desktop Turn Chart",
+    "category": "Desktop",
+    "description": "Chart turn durations with interruption labels.",
+    "use": "Compare the duration of your latest turns.",
+    "access": "Observes durations, agent IDs and interruption flags for the latest 12 completed turns; memory only.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-edit-map",
+    "title": "Desktop Edit Map",
+    "category": "Desktop",
+    "description": "Chart successful built-in edits grouped by file path.",
+    "use": "See which files Claude has touched this session.",
+    "access": "Observes successful Edit/Write file paths only, latest 100 calls in memory. Does not read file contents; not a full filesystem audit.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-agent-desk",
+    "title": "Desktop Agent Desk",
+    "category": "Desktop",
+    "description": "Filter reported agents and copy a status snapshot.",
+    "use": "Keep a readable agent roster next to the conversation.",
+    "access": "Reads engine-reported agent metadata on refresh. No spawning, messages, transcript reads, or agent control. Clipboard on button press.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-review-desk",
+    "title": "Desktop Review Desk",
+    "category": "Desktop",
+    "description": "Switch between Git status, staged diff, and unstaged diff.",
+    "use": "Inspect a change from one desktop review pane.",
+    "access": "Runs read-only Git argv commands in session cwd only when opened or refreshed. External diff and textconv disabled. Output truncated to 9,000 characters. Clipboard only on press.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-file-desk",
+    "title": "Desktop File Desk",
+    "category": "Desktop",
+    "description": "Read a bounded text file with line filtering and path drafting.",
+    "use": "Inspect a file while preparing a precise question about it.",
+    "access": "Reads a user-chosen regular text file up to 128 KiB on input submission; no automatic reads. Symlinks/binary files refused, preview truncated to 9,000 characters and 100 matching lines. Paths may point to private files. Fills a composer draft on press; never submits it.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-markdown-reader",
+    "title": "Desktop Markdown Reader",
+    "category": "Desktop",
+    "description": "Render a local Markdown document with a source tab.",
+    "use": "Read project documentation in a desktop pane.",
+    "access": "Reads a chosen .md file up to 128 KiB, refuses symlinks, renders at most 9,000 characters. Markdown links behave like normal links when clicked; mod makes no network requests. Clipboard on press.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-compare-desk",
+    "title": "Desktop Compare Desk",
+    "category": "Desktop",
+    "description": "Compare two local text files in responsive side-by-side columns.",
+    "use": "Check two versions without switching windows.",
+    "access": "Reads two user-chosen regular non-symlink text files up to 128 KiB each on Compare. No writes. Line positions compare truncated previews; insertions shift subsequent positions.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-prompt-builder",
+    "title": "Desktop Prompt Builder",
+    "category": "Desktop",
+    "description": "Build a saved prompt from goal, constraints, and acceptance criteria.",
+    "use": "Prepare a clear request before filling the composer.",
+    "access": "Saves up to 2,000 characters per field in a workspace-partitioned local store. Copy/fill only on press. Fill replaces the composer draft without submitting a prompt.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-session-brief",
+    "title": "Desktop Session Brief",
+    "category": "Desktop",
+    "description": "Combine observed tool and turn counts with a manual handoff note.",
+    "use": "Copy a factual session summary with your next step.",
+    "access": "Observes tool status and turn completion counts in memory; reads cwd. Does not read messages or tool outputs. User note and counters reset on reload; clipboard on press.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-bookmark-dock",
+    "title": "Desktop Bookmark Dock",
+    "category": "Desktop",
+    "description": "Keep labeled web references with copy and delete controls.",
+    "use": "Put project references one click away.",
+    "access": "Stores up to 100 user-entered HTTP/HTTPS bookmarks per workspace; credential URLs refused. Clipboard on press. Clicking a link uses the host browser. Mod makes no network requests.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-checklist-desk",
+    "title": "Desktop Checklist Desk",
+    "category": "Desktop",
+    "description": "Move saved work items through To do, Doing, and Done columns.",
+    "use": "Track a small workflow on the desktop.",
+    "access": "Stores up to 100 user-entered work items per workspace. Move/delete only on press; reload sees other sessions. Same-item concurrent changes are last-write-wins. Responsive columns stack in narrow panes.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-workspace-home",
+    "title": "Desktop Workspace Home",
+    "category": "Desktop",
+    "description": "Show the current workspace, Git state, and session usage together.",
+    "use": "Orient yourself when switching between desktop sessions.",
+    "access": "Reads cwd and reported usage; runs read-only git status argv on open/reload, bounded to 9,000 characters. Clipboard on press. No filesystem writes.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-break-bell",
+    "title": "Desktop Break Bell",
+    "category": "Desktop",
+    "description": "Set an adjustable countdown with a visual progress chart and toast.",
+    "use": "Remember a break during a long desktop session.",
+    "access": "Uses a local one-second clock and one completion toast; memory only, reset on reload. Does not play audio or send an OS notification.",
+    "sample": "",
+    "surface": "desktop"
+  },
+  {
+    "id": "desktop-json-desk",
+    "title": "Desktop JSON Desk",
+    "category": "Desktop",
+    "description": "Validate pasted JSON with a searchable key summary and formatted preview.",
+    "use": "Inspect an API response visually without a file or network request.",
+    "access": "Parses pasted JSON locally, input up to 9,000 characters, first 50 matching top-level keys, display capped at 9,000 characters. Clipboard on press (up to 30,000 characters). No files or persistence.",
+    "sample": "",
+    "surface": "desktop"
   }
 ]

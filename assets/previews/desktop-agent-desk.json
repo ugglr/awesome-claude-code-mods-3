@@ -1,0 +1,78 @@
+{
+  "id": "desktop-agent-desk",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Agent Desk"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "filter",
+          "label": "Filter agents",
+          "value": "",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "1 matching agents"
+        ]
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "column",
+          "gap": 1
+        },
+        "children": [
+          {
+            "type": "Text",
+            "props": {
+              "bold": true,
+              "color": "cyan"
+            },
+            "children": [
+              "Review accessibility"
+            ]
+          },
+          {
+            "type": "Text",
+            "children": [
+              "a-1 \u00b7 running \u00b7 Explore"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy roster"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "97f1d6d4e444be878b062df4229ca4b2b6702f41cd0f9a6a285c5955fd8b96f4"
+}

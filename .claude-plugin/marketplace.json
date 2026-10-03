@@ -4,8 +4,8 @@
     "name": "Yash Thakker"
   },
   "metadata": {
-    "description": "50 independent MIT-licensed Claude Code mods",
-    "version": "1.0.0"
+    "description": "70 MIT-licensed Claude Code mods, including 20 for the Desktop Code tab",
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -357,6 +357,146 @@
       "description": "Toggle a reminder guard that refuses built-in mutating tools and Bash.",
       "version": "1.0.0",
       "category": "workflow"
+    },
+    {
+      "name": "desktop-usage-strip",
+      "source": "./mods/desktop-usage-strip",
+      "description": "Show quota, reset countdowns, tokens, and cost in a composer strip.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-context-map",
+      "source": "./mods/desktop-context-map",
+      "description": "Chart context headroom and sampled window growth.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-quota-clock",
+      "source": "./mods/desktop-quota-clock",
+      "description": "Chart reported plan windows with live reset countdowns.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-cost-watch",
+      "source": "./mods/desktop-cost-watch",
+      "description": "Set a local budget reminder against reported session USD.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-token-flow",
+      "source": "./mods/desktop-token-flow",
+      "description": "Chart uncached input, output, cache reads, and cache writes.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-tool-pulse",
+      "source": "./mods/desktop-tool-pulse",
+      "description": "Chart completed tool latency and failures by tool.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-turn-chart",
+      "source": "./mods/desktop-turn-chart",
+      "description": "Chart turn durations with interruption labels.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-edit-map",
+      "source": "./mods/desktop-edit-map",
+      "description": "Chart successful built-in edits grouped by file path.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-agent-desk",
+      "source": "./mods/desktop-agent-desk",
+      "description": "Filter reported agents and copy a status snapshot.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-review-desk",
+      "source": "./mods/desktop-review-desk",
+      "description": "Switch between Git status, staged diff, and unstaged diff.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-file-desk",
+      "source": "./mods/desktop-file-desk",
+      "description": "Read a bounded text file with line filtering and path drafting.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-markdown-reader",
+      "source": "./mods/desktop-markdown-reader",
+      "description": "Render a local Markdown document with a source tab.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-compare-desk",
+      "source": "./mods/desktop-compare-desk",
+      "description": "Compare two local text files in responsive side-by-side columns.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-prompt-builder",
+      "source": "./mods/desktop-prompt-builder",
+      "description": "Build a saved prompt from goal, constraints, and acceptance criteria.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-session-brief",
+      "source": "./mods/desktop-session-brief",
+      "description": "Combine observed tool and turn counts with a manual handoff note.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-bookmark-dock",
+      "source": "./mods/desktop-bookmark-dock",
+      "description": "Keep labeled web references with copy and delete controls.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-checklist-desk",
+      "source": "./mods/desktop-checklist-desk",
+      "description": "Move saved work items through To do, Doing, and Done columns.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-workspace-home",
+      "source": "./mods/desktop-workspace-home",
+      "description": "Show the current workspace, Git state, and session usage together.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-break-bell",
+      "source": "./mods/desktop-break-bell",
+      "description": "Set an adjustable countdown with a visual progress chart and toast.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "desktop-json-desk",
+      "source": "./mods/desktop-json-desk",
+      "description": "Validate pasted JSON with a searchable key summary and formatted preview.",
+      "version": "1.0.0",
+      "category": "productivity"
     }
   ]
 }

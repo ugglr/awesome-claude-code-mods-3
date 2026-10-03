@@ -1,0 +1,64 @@
+{
+  "id": "desktop-tool-pulse",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Tool Pulse"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "2 observed calls \u00b7 0 failures"
+        ]
+      },
+      {
+        "type": "Svg",
+        "props": {
+          "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 580 100\" width=\"580\" height=\"100\"><rect width=\"580\" height=\"100\" rx=\"12\" fill=\"#182234\"/><text x=\"12\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">Read</text><rect x=\"180\" y=\"12\" width=\"0\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">0</text><text x=\"12\" y=\"58\" fill=\"#d8dfeb\" font-size=\"12\">Bash</text><rect x=\"180\" y=\"42\" width=\"0\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"58\" fill=\"#d8dfeb\" font-size=\"12\">0</text></svg>",
+          "alt": "Average completed tool milliseconds",
+          "height": 100
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Read: 1 calls"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Bash: 1 calls"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "clear",
+          "label": "Clear tool chart"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "97a4d8d3d6fbcf85a493abfd165907195a127c10a1d5f5d0cb5d9f783ce02e75"
+}

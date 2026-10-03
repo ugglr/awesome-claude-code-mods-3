@@ -2,7 +2,7 @@
 
 Claude Code mods run with the permissions of the user. Review the source and `claude plugin validate mods/<name> --strict` output before loading one. Validation lists events and engine calls; it does not establish that a mod is safe.
 
-The 50 bundled mods make no network requests, call no models, and approve no permission prompts. Git inspection mods start read-only Git processes through argv arrays when requested. Viewers read user-selected paths with explicit size limits. Workspace tools store user-entered notes in Claude Code's local plugin store. Clipboard operations and composer drafts are explicit button actions.
+The 70 bundled mods make no network requests, call no models, and approve no permission prompts. Git inspection mods start read-only Git processes through argv arrays when requested. Viewers read user-selected paths with explicit size limits. Workspace tools store user-entered notes in Claude Code's local plugin store. Clipboard operations and composer drafts are explicit button actions. Composer fill replaces the current draft without sending it. The 20 [Desktop additions](docs/DESKTOP.md) use the same access rules; their native SVGs contain escaped labels and no scripts. Countdown/budget displays are reminders, not spending controls or OS alarms.
 
 The [community listings](docs/COMMUNITY_MODS.md) describe external projects reviewed through their authors' documentation. Their access differs: some make network or model calls, start processes, or automatically submit queued prompts. They are not covered by this collection's bundled-plugin tests or access claims. Each listing names relevant behavior and prerequisites; we have not run or security-audited those projects.
 

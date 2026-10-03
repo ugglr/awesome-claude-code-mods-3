@@ -1,0 +1,52 @@
+{
+  "id": "desktop-token-flow",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Token Flow"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Latest 1 observed requests; API-reported token categories."
+        ]
+      },
+      {
+        "type": "Svg",
+        "props": {
+          "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 580 160\" width=\"580\" height=\"160\"><rect width=\"580\" height=\"160\" rx=\"12\" fill=\"#182234\"/><text x=\"12\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">Uncached input</text><rect x=\"180\" y=\"12\" width=\"6.2\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">20</text><text x=\"12\" y=\"58\" fill=\"#d8dfeb\" font-size=\"12\">Output</text><rect x=\"180\" y=\"42\" width=\"3.1\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"58\" fill=\"#d8dfeb\" font-size=\"12\">10</text><text x=\"12\" y=\"88\" fill=\"#d8dfeb\" font-size=\"12\">Cache read</text><rect x=\"180\" y=\"72\" width=\"310\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"88\" fill=\"#d8dfeb\" font-size=\"12\">1000</text><text x=\"12\" y=\"118\" fill=\"#d8dfeb\" font-size=\"12\">Cache write</text><rect x=\"180\" y=\"102\" width=\"24.8\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"118\" fill=\"#d8dfeb\" font-size=\"12\">80</text></svg>",
+          "alt": "Token totals: 20, 10, 1000, 80",
+          "height": 160
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "clear",
+          "label": "Clear observations"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "426054b153277da5fce79b21583b388a16155614c9973901b20f8739d2e528b9"
+}

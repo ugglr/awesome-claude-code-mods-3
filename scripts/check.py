@@ -4,8 +4,10 @@ import concurrent.futures,json,subprocess,sys,re,argparse
 from provenance import source_digest
 from pathlib import Path
 root=Path(__file__).resolve().parent.parent
-parser=argparse.ArgumentParser();parser.add_argument('--capture-previews',action='store_true');args=parser.parse_args()
-catalog=json.loads((root/'catalog.json').read_text())
+parser=argparse.ArgumentParser();parser.add_argument('--capture-previews',action='store_true');parser.add_argument('--category');args=parser.parse_args()
+all_mods=json.loads((root/'catalog.json').read_text())
+catalog=[m for m in all_mods if not args.category or m['category']==args.category]
+if not catalog:parser.error('No mods match that category')
 version=subprocess.check_output(['claude','--version'],text=True).strip()
 def check(m):
  reports=[];ok=True
@@ -37,6 +39,15 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
   if not r['passed']:
    for c in r['checks']:
     if c['exitCode']:print(c['output'],flush=True)
-(root/'docs/check-results.json').write_text(json.dumps({'version':version,'mods':results},indent=2)+'\n')
+report=root/'docs/check-results.json'
+if args.category and report.exists():
+ previous=json.loads(report.read_text())
+ # Keep evidence from the other categories; never combine engine versions.
+ if previous['version']==version:
+  merged={r['id']:r for r in previous['mods']}
+  merged.update({r['id']:r for r in results})
+  report.write_text(json.dumps({'version':version,'mods':[merged[m['id']] for m in all_mods if m['id'] in merged]},indent=2)+'\n')
+ else:report.write_text(json.dumps({'version':version,'mods':results},indent=2)+'\n')
+else:report.write_text(json.dumps({'version':version,'mods':results},indent=2)+'\n')
 print(str(sum(r['passed'] for r in results))+'/'+str(len(results))+' mods pass native validation and tests')
 sys.exit(0 if all(r['passed'] for r in results) else 1)

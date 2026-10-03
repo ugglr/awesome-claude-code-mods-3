@@ -1,0 +1,133 @@
+{
+  "id": "desktop-compare-desk",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Compare Desk"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "left",
+          "label": "Left file",
+          "value": "before.txt",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "right",
+          "label": "Right file",
+          "value": "after.txt",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "load",
+          "label": "Compare files"
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Compared preview: 1 differing line positions."
+        ]
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "gap": 2
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "flexDirection": "column",
+              "flexGrow": 1
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "bold": true
+                },
+                "children": [
+                  "before.txt"
+                ]
+              },
+              {
+                "type": "Code",
+                "props": {
+                  "source": "hello\nold\n",
+                  "language": "text"
+                }
+              }
+            ]
+          },
+          {
+            "type": "Box",
+            "props": {
+              "flexDirection": "column",
+              "flexGrow": 1
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "bold": true
+                },
+                "children": [
+                  "after.txt"
+                ]
+              },
+              {
+                "type": "Code",
+                "props": {
+                  "source": "hello\nnew\n",
+                  "language": "text"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Changed line positions: 2"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Position comparison, not an insertion-aware diff. Each preview is bounded to 9,000 characters."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "58faefcf2f9f7eb6767345d09cddd46f30b584b9529306725b260a0a662b423f"
+}

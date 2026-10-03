@@ -1,0 +1,85 @@
+{
+  "id": "desktop-prompt-builder",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Prompt Builder"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "goal",
+          "label": "goal",
+          "value": "Improve keyboard navigation",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "constraints",
+          "label": "constraints",
+          "value": "Preserve existing shortcuts",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "acceptance",
+          "label": "acceptance",
+          "value": "Tab reaches every control",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "Goal: Improve keyboard navigation\n\nConstraints: Preserve existing shortcuts\n\nAcceptance criteria: Tab reaches every control",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "draft",
+          "label": "Fill composer draft"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "copy",
+          "label": "Copy prompt"
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Saved locally."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "5ec662a49a89fd6ef8219aa8036d2e1f3823887f3c505289bee81e80b1040a62"
+}

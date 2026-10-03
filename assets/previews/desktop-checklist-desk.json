@@ -1,0 +1,188 @@
+{
+  "id": "desktop-checklist-desk",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Checklist Desk"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "entry",
+          "label": "Work item",
+          "value": "",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "gap": 2
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "flexDirection": "column",
+              "flexGrow": 1
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "bold": true
+                },
+                "children": [
+                  "To do"
+                ]
+              },
+              {
+                "type": "Box",
+                "props": {
+                  "flexDirection": "column",
+                  "gap": 1
+                },
+                "children": [
+                  {
+                    "type": "Text",
+                    "props": {
+                      "bold": true,
+                      "color": "cyan"
+                    },
+                    "children": [
+                      "Capture desktop screenshots"
+                    ]
+                  },
+                  {
+                    "type": "Button",
+                    "props": {
+                      "key": "move-workspace:%2Fwork:item:2026-10-03T09:00:00.000Z:012e416b-5af2-4fb0-a7a4-e520f32bf833",
+                      "label": "Move to Doing"
+                    }
+                  },
+                  {
+                    "type": "Button",
+                    "props": {
+                      "key": "delete-workspace:%2Fwork:item:2026-10-03T09:00:00.000Z:012e416b-5af2-4fb0-a7a4-e520f32bf833",
+                      "label": "Delete"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Box",
+            "props": {
+              "flexDirection": "column",
+              "flexGrow": 1
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "bold": true
+                },
+                "children": [
+                  "Doing"
+                ]
+              },
+              {
+                "type": "Box",
+                "props": {
+                  "flexDirection": "column",
+                  "gap": 1
+                },
+                "children": [
+                  {
+                    "type": "Text",
+                    "props": {
+                      "bold": true,
+                      "color": "cyan"
+                    },
+                    "children": [
+                      "Review keyboard controls"
+                    ]
+                  },
+                  {
+                    "type": "Button",
+                    "props": {
+                      "key": "move-workspace:%2Fwork:item:2026-10-03T09:00:00.000Z:44b2bf70-e699-4adb-91e0-f0588daa64fb",
+                      "label": "Move to Done"
+                    }
+                  },
+                  {
+                    "type": "Button",
+                    "props": {
+                      "key": "delete-workspace:%2Fwork:item:2026-10-03T09:00:00.000Z:44b2bf70-e699-4adb-91e0-f0588daa64fb",
+                      "label": "Delete"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "Box",
+            "props": {
+              "flexDirection": "column",
+              "flexGrow": 1
+            },
+            "children": [
+              {
+                "type": "Text",
+                "props": {
+                  "bold": true
+                },
+                "children": [
+                  "Done"
+                ]
+              },
+              {
+                "type": "Text",
+                "children": [
+                  "Empty"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "2 saved items"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "reload",
+          "label": "Reload board"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "ace3e112641cd7e9a85476b1da5dea96ad6a0f4c5888619fbbc9da92d6b10b9f"
+}

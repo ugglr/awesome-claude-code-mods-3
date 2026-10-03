@@ -1,0 +1,66 @@
+{
+  "id": "desktop-context-map",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Context Map"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "84,000 / 200,000 tokens"
+        ]
+      },
+      {
+        "type": "Svg",
+        "props": {
+          "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 580 70\" width=\"580\" height=\"70\"><rect width=\"580\" height=\"70\" rx=\"12\" fill=\"#182234\"/><text x=\"12\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">Context fill</text><rect x=\"180\" y=\"12\" width=\"130.2\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">42</text></svg>",
+          "alt": "Context fill: 42%",
+          "height": 70
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Headroom: 116,000"
+        ]
+      },
+      {
+        "type": "Svg",
+        "props": {
+          "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 580 70\" width=\"580\" height=\"70\"><rect width=\"580\" height=\"70\" rx=\"12\" fill=\"#182234\"/><text x=\"12\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">Turn 1</text><rect x=\"180\" y=\"12\" width=\"310\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">42</text></svg>",
+          "alt": "Sampled context percentages",
+          "height": 70
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "clear",
+          "label": "Clear chart"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "1c00c80e5e2ec33f6d00f8c49d2b8f8eadbba90e7e89326498f5300239556f74"
+}

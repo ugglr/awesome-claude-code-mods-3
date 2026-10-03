@@ -1,0 +1,66 @@
+{
+  "id": "desktop-cost-watch",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Cost Watch"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "budget",
+          "label": "Session USD target",
+          "value": "3",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Reported USD: 1.20"
+        ]
+      },
+      {
+        "type": "Svg",
+        "props": {
+          "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 580 70\" width=\"580\" height=\"70\"><rect width=\"580\" height=\"70\" rx=\"12\" fill=\"#182234\"/><text x=\"12\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">Budget used</text><rect x=\"180\" y=\"12\" width=\"124\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">40</text></svg>",
+          "alt": "Budget used: 40%",
+          "height": 70
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Remaining target: USD 1.80"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Target saved."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "b1a7f3ef7402299a03fc6de909c0cacb596e1a5cc8a02359f6ef379f19b64f00"
+}

@@ -1,16 +1,16 @@
 # Awesome Claude Code Mods
 
-**50 useful mods, plus community picks. Pick one. Install it. Keep working.**
+**70 useful mods: 50 general tools + 20 Desktop mods, plus community picks. Pick one. Install it. Keep working.**
 
 This repository was inspired by the [Claude Code Mods guide on ExplainX.ai](https://www.explainx.ai/blog/claude-code-mods-typescript-plugins-guide-2026).
 
-50 independent, MIT-licensed bundled plugins for Git inspection, session diagnostics, local file viewers, workspace notes, text utilities, and workflow controls. Each comes with working source, native Claude Code tests, install instructions, an access description, and a screenshot. The community section adds external projects with their own installation and requirements.
+70 independent, MIT-licensed bundled plugins for Git inspection, session diagnostics, local file viewers, workspace notes, text utilities, and workflow controls, including 20 additions for the Claude Desktop Code tab. Each comes with working source, native Claude Code tests, install instructions, an access description, and a screenshot. The community section adds external projects with their own installation and requirements.
 
 ![Six mod previews](assets/screenshots/collection.png)
 
 *Screenshots show actual mod render trees captured by Claude Code's test kit with fixture data, painted in a browser preview. They are not native Claude Code app captures. [Screenshot provenance](docs/SCREENSHOTS.md).*
 
-[Searchable gallery (open locally)](gallery.html) · [Community mods](#community-mods) · [Research and existing mods](docs/RESEARCH.md) · [Validation](docs/VALIDATION.md) · [Contribute](CONTRIBUTING.md)
+[Searchable gallery (open locally)](gallery.html) · [20 Desktop mods and setup](docs/DESKTOP.md) · [Community mods](#community-mods) · [Research and existing mods](docs/RESEARCH.md) · [Validation](docs/VALIDATION.md) · [Contribute](CONTRIBUTING.md)
 
 ## Start in under a minute
 
@@ -33,7 +33,20 @@ claude --plugin-dir ./mods/context-meter
 
 Then run `/context-meter`. Replace `context-meter` with any folder below. You can install several independently; each command uses its mod's name. No runtime dependencies or build step. Git tools require Git on PATH; package viewers expect a package.json in your project or a path you choose.
 
-These are executable mods, not a list of prompts or skills. Research links document the ecosystem; the 50 implementations here are original, and some use cases overlap with existing mods.
+These are executable mods, not a list of prompts or skills. Research links document the ecosystem; the 70 implementations here are original, and some use cases overlap with existing mods.
+
+## Desktop quick start
+
+The new Desktop set includes an image-inspired usage strip, SVG charts, document and review panes, drafting tools, and a workflow board. These 20 additions target the **Claude Desktop Code tab**. [Choose a Desktop mod and see setup details](docs/DESKTOP.md).
+
+![Six Desktop mod fixture previews](assets/screenshots/desktop-collection.png)
+
+```sh
+claude plugin marketplace add whyashthakker/awesome-claude-code-mods
+claude plugin install desktop-usage-strip@awesome-claude-code-mods
+```
+
+Open a local Code session in Claude Desktop, run `/reload-plugins` if needed, then `/desktop-usage-strip`. If the marketplace is already registered, update it first with `claude plugin marketplace update awesome-claude-code-mods`. The strip shows quota/reset, context, observed token totals, and reported session USD. Its pane includes a hide/show control. Missing figures are labeled; costs are not subscription bills.
 
 ## Choose a mod
 
@@ -119,9 +132,34 @@ The screenshot in every row opens at full resolution. Each name links to its REA
 | [Scope Watch](mods/scope-watch/README.md) | Warn when observed file edits leave a chosen path prefix. | [![Scope Watch preview](assets/screenshots/scope-watch.png)](assets/screenshots/scope-watch.png) |
 | [Read-only Mode](mods/read-only-mode/README.md) | Toggle a reminder guard that refuses built-in mutating tools and Bash. | [![Read-only Mode preview](assets/screenshots/read-only-mode.png)](assets/screenshots/read-only-mode.png) |
 
+### Desktop · 20 mods
+
+| Mod | Use case | Preview |
+| --- | --- | --- |
+| [Desktop Usage Strip](mods/desktop-usage-strip/README.md) | Show quota, reset countdowns, tokens, and cost in a composer strip. | [![Desktop Usage Strip preview](assets/screenshots/desktop-usage-strip.png)](assets/screenshots/desktop-usage-strip.png) |
+| [Desktop Context Map](mods/desktop-context-map/README.md) | Chart context headroom and sampled window growth. | [![Desktop Context Map preview](assets/screenshots/desktop-context-map.png)](assets/screenshots/desktop-context-map.png) |
+| [Desktop Quota Clock](mods/desktop-quota-clock/README.md) | Chart reported plan windows with live reset countdowns. | [![Desktop Quota Clock preview](assets/screenshots/desktop-quota-clock.png)](assets/screenshots/desktop-quota-clock.png) |
+| [Desktop Cost Watch](mods/desktop-cost-watch/README.md) | Set a local budget reminder against reported session USD. | [![Desktop Cost Watch preview](assets/screenshots/desktop-cost-watch.png)](assets/screenshots/desktop-cost-watch.png) |
+| [Desktop Token Flow](mods/desktop-token-flow/README.md) | Chart uncached input, output, cache reads, and cache writes. | [![Desktop Token Flow preview](assets/screenshots/desktop-token-flow.png)](assets/screenshots/desktop-token-flow.png) |
+| [Desktop Tool Pulse](mods/desktop-tool-pulse/README.md) | Chart completed tool latency and failures by tool. | [![Desktop Tool Pulse preview](assets/screenshots/desktop-tool-pulse.png)](assets/screenshots/desktop-tool-pulse.png) |
+| [Desktop Turn Chart](mods/desktop-turn-chart/README.md) | Chart turn durations with interruption labels. | [![Desktop Turn Chart preview](assets/screenshots/desktop-turn-chart.png)](assets/screenshots/desktop-turn-chart.png) |
+| [Desktop Edit Map](mods/desktop-edit-map/README.md) | Chart successful built-in edits grouped by file path. | [![Desktop Edit Map preview](assets/screenshots/desktop-edit-map.png)](assets/screenshots/desktop-edit-map.png) |
+| [Desktop Agent Desk](mods/desktop-agent-desk/README.md) | Filter reported agents and copy a status snapshot. | [![Desktop Agent Desk preview](assets/screenshots/desktop-agent-desk.png)](assets/screenshots/desktop-agent-desk.png) |
+| [Desktop Review Desk](mods/desktop-review-desk/README.md) | Switch between Git status, staged diff, and unstaged diff. | [![Desktop Review Desk preview](assets/screenshots/desktop-review-desk.png)](assets/screenshots/desktop-review-desk.png) |
+| [Desktop File Desk](mods/desktop-file-desk/README.md) | Read a bounded text file with line filtering and path drafting. | [![Desktop File Desk preview](assets/screenshots/desktop-file-desk.png)](assets/screenshots/desktop-file-desk.png) |
+| [Desktop Markdown Reader](mods/desktop-markdown-reader/README.md) | Render a local Markdown document with a source tab. | [![Desktop Markdown Reader preview](assets/screenshots/desktop-markdown-reader.png)](assets/screenshots/desktop-markdown-reader.png) |
+| [Desktop Compare Desk](mods/desktop-compare-desk/README.md) | Compare two local text files in responsive side-by-side columns. | [![Desktop Compare Desk preview](assets/screenshots/desktop-compare-desk.png)](assets/screenshots/desktop-compare-desk.png) |
+| [Desktop Prompt Builder](mods/desktop-prompt-builder/README.md) | Build a saved prompt from goal, constraints, and acceptance criteria. | [![Desktop Prompt Builder preview](assets/screenshots/desktop-prompt-builder.png)](assets/screenshots/desktop-prompt-builder.png) |
+| [Desktop Session Brief](mods/desktop-session-brief/README.md) | Combine observed tool and turn counts with a manual handoff note. | [![Desktop Session Brief preview](assets/screenshots/desktop-session-brief.png)](assets/screenshots/desktop-session-brief.png) |
+| [Desktop Bookmark Dock](mods/desktop-bookmark-dock/README.md) | Keep labeled web references with copy and delete controls. | [![Desktop Bookmark Dock preview](assets/screenshots/desktop-bookmark-dock.png)](assets/screenshots/desktop-bookmark-dock.png) |
+| [Desktop Checklist Desk](mods/desktop-checklist-desk/README.md) | Move saved work items through To do, Doing, and Done columns. | [![Desktop Checklist Desk preview](assets/screenshots/desktop-checklist-desk.png)](assets/screenshots/desktop-checklist-desk.png) |
+| [Desktop Workspace Home](mods/desktop-workspace-home/README.md) | Show the current workspace, Git state, and session usage together. | [![Desktop Workspace Home preview](assets/screenshots/desktop-workspace-home.png)](assets/screenshots/desktop-workspace-home.png) |
+| [Desktop Break Bell](mods/desktop-break-bell/README.md) | Set an adjustable countdown with a visual progress chart and toast. | [![Desktop Break Bell preview](assets/screenshots/desktop-break-bell.png)](assets/screenshots/desktop-break-bell.png) |
+| [Desktop JSON Desk](mods/desktop-json-desk/README.md) | Validate pasted JSON with a searchable key summary and formatted preview. | [![Desktop JSON Desk preview](assets/screenshots/desktop-json-desk.png)](assets/screenshots/desktop-json-desk.png) |
+
 ## Community mods
 
-14 independently published mods, checked against author documentation on **October 3, 2026**. Install these from their authors' marketplaces. The descriptions and commands below are documentation reviews; we have not installed, run, or security-audited these projects. The collection's 50 bundled plugins and their test results are separate.
+14 independently published mods, checked against author documentation on **October 3, 2026**. Install these from their authors' marketplaces. The descriptions and commands below are documentation reviews; we have not installed, run, or security-audited these projects. The collection's 70 bundled plugins and their test results are separate.
 
 Use Claude Code **2.1.287+**. [Anthropic's current documentation](https://code.claude.com/docs/en/plugins/mods/overview#turn-mods-on-or-off) says mods are enabled by default and the old `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS` flag is ignored. Entries marked **early-access documentation** describe older builds; their compatibility with the current API remains unverified. Run `/reload-plugins` after installing into an open session.
 
@@ -309,7 +347,7 @@ The author tests on **Claude Code 2.1.278** with early-access and fullscreen-ren
 /plugin enable cc-plugin-you-should-know@builtin
 ```
 
-This is an Anthropic built-in, separate from the 14 external community projects and the 50 plugins bundled here. We have not enabled or measured its model usage or runtime behavior.
+This is an Anthropic built-in, separate from the 14 external community projects and the 70 plugins bundled here. We have not enabled or measured its model usage or runtime behavior.
 
 ## How the bundled collection behaves
 
@@ -330,9 +368,9 @@ python3 scripts/check.py
 python3 scripts/audit.py
 ```
 
-The collection passed **50 strict plugin validations and 250 native tests** on Claude Code 2.1.288, including controls on both Terminal and Desktop surfaces. The marketplace also passed strict validation. Browser checks cover the gallery's search, filtering, and mobile width. [Check output and limits](docs/VALIDATION.md).
+The collection passed **70 strict plugin validations and 390 native tests** on Claude Code 2.1.288, including the original 50 mods on both Terminal and Desktop surfaces, and 20 Desktop mods at two pane widths with unsupported-surface handling. The marketplace also passed strict validation. Browser checks cover the gallery's search, filtering, and mobile width. [Check output and limits](docs/VALIDATION.md).
 
-The test kit verifies behavior and valid element trees. Interactive native pixel/layout acceptance for all 50 mods remains open. Screenshot regeneration uses development-only Python tooling; see [Contributing](CONTRIBUTING.md).
+The test kit verifies behavior and valid element trees. Interactive native pixel/layout acceptance for all 70 mods remains open. Screenshot regeneration uses development-only Python tooling; see [Contributing](CONTRIBUTING.md).
 
 Disable or uninstall an installed mod in `/plugin` → **Installed**. Develop against `--plugin-dir`, since installed plugin versions are cached. When publishing a change, bump its version and the marketplace entry together.
 

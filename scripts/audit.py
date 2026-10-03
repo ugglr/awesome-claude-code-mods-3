@@ -11,10 +11,11 @@ images={m['id']:m for m in manifest['images']}
 errors=[]
 def require(condition,message):
  if not condition:errors.append(message)
-require(len(mods)==50,'Expected 50 catalogue entries')
-require(len({m['id'] for m in mods})==50,'Mod IDs are not unique')
-require(len(list((ROOT/'mods').iterdir()))==50,'Expected exactly 50 plugin directories')
-require(len(images)==50,'Expected 50 screenshot provenance entries')
+require(len(mods)==70,'Expected 70 catalogue entries')
+require(sum(m.get('surface')=='desktop' for m in mods)==20,'Expected 20 Desktop mods')
+require(len({m['id'] for m in mods})==70,'Mod IDs are not unique')
+require(len(list((ROOT/'mods').iterdir()))==70,'Expected exactly 70 plugin directories')
+require(len(images)==70,'Expected 70 screenshot provenance entries')
 require({m['name'] for m in market['plugins']}=={m['id'] for m in mods},'Marketplace/catalogue mismatch')
 for m in mods:
  name=m['id'];d=ROOT/'mods'/name
@@ -47,6 +48,9 @@ for m in mods:
  require(record['pngSha256']==file_digest(image),name+': screenshot changed without provenance')
  require((ROOT/'assets/previews'/f'{name}.html').is_file(),name+': HTML preview absent')
  require('Unable to inspect this data.' not in json.dumps(data),name+': error-state preview')
+ require('Unable to display:' not in json.dumps(data),name+': Desktop error-state preview')
+ if m.get('surface')=='desktop':
+  require(data.get('surface')=='desktop',name+': must capture Desktop surface')
  require((d/'tests/register.test.ts').read_text().count('test(')>=4,name+': missing native behavioral tests')
 # Check all local Markdown targets, including images and anchors.
 for doc in [ROOT/'README.md',ROOT/'CONTRIBUTING.md',*ROOT.glob('docs/*.md'),*ROOT.glob('mods/*/README.md')]:
@@ -56,4 +60,4 @@ for doc in [ROOT/'README.md',ROOT/'CONTRIBUTING.md',*ROOT.glob('docs/*.md'),*ROO
   require((doc.parent/target).exists(),str(doc.relative_to(ROOT))+': broken link '+target)
 if errors:
  print('\n'.join(errors));sys.exit(1)
-print('Audit passed: 50 standalone mods, MIT licenses, local imports, live screenshot digests, and local links')
+print('Audit passed: 70 standalone mods (20 Desktop), MIT licenses, local imports, live screenshot digests, and local links')

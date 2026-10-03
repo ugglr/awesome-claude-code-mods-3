@@ -1,0 +1,100 @@
+{
+  "id": "desktop-bookmark-dock",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Bookmark Dock"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "label",
+          "label": "Label",
+          "value": "",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "url",
+          "label": "HTTP / HTTPS URL",
+          "value": "",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "save",
+          "label": "Save bookmark"
+        }
+      },
+      {
+        "type": "Box",
+        "props": {
+          "flexDirection": "row",
+          "columnGap": 2,
+          "flexWrap": "wrap"
+        },
+        "children": [
+          {
+            "type": "Link",
+            "props": {
+              "href": "https://example.com/docs",
+              "label": "Project docs"
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "copy-0",
+              "label": "Copy URL"
+            }
+          },
+          {
+            "type": "Button",
+            "props": {
+              "key": "delete-0",
+              "label": "Delete"
+            }
+          }
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Saved locally."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "reload",
+          "label": "Reload bookmarks"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "bb69699643f4b6ccf125701c03428e6e1b51bffe3a09f1db3ce3607637116d01"
+}

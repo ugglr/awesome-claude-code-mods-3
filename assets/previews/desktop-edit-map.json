@@ -1,0 +1,70 @@
+{
+  "id": "desktop-edit-map",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Edit Map"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "2 successful Edit/Write calls observed"
+        ]
+      },
+      {
+        "type": "Svg",
+        "props": {
+          "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 580 100\" width=\"580\" height=\"100\"><rect width=\"580\" height=\"100\" rx=\"12\" fill=\"#182234\"/><text x=\"12\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">app.ts</text><rect x=\"180\" y=\"12\" width=\"310\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">1</text><text x=\"12\" y=\"58\" fill=\"#d8dfeb\" font-size=\"12\">ui.ts</text><rect x=\"180\" y=\"42\" width=\"310\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"58\" fill=\"#d8dfeb\" font-size=\"12\">1</text></svg>",
+          "alt": "Edits per file",
+          "height": 100
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "src/app.ts"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "src/ui.ts"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Bash, MCP, and other mods\u2019 writes are not detected."
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "clear",
+          "label": "Clear edit map"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "cd2ce95b30fac367d36230e38787af3aa78b76aa43e85b8677dc8a8b91468367"
+}

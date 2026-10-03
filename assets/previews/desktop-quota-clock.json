@@ -1,0 +1,59 @@
+{
+  "id": "desktop-quota-clock",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Quota Clock"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "five_hour \u00b7 37% \u00b7 3h 0m"
+        ]
+      },
+      {
+        "type": "Svg",
+        "props": {
+          "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 580 70\" width=\"580\" height=\"70\"><rect width=\"580\" height=\"70\" rx=\"12\" fill=\"#182234\"/><text x=\"12\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">five_hour</text><rect x=\"180\" y=\"12\" width=\"114.7\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">37</text></svg>",
+          "alt": "five_hour: 37%",
+          "height": 70
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "seven_day \u00b7 61% \u00b7 144h 0m"
+        ]
+      },
+      {
+        "type": "Svg",
+        "props": {
+          "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 580 70\" width=\"580\" height=\"70\"><rect width=\"580\" height=\"70\" rx=\"12\" fill=\"#182234\"/><text x=\"12\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">seven_day</text><rect x=\"180\" y=\"12\" width=\"189.1\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">61</text></svg>",
+          "alt": "seven_day: 61%",
+          "height": 70
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "c25acf2403a800f63dac10fa9860cdca5abece5f7f9e636f1f10d18f3f0c70f9"
+}

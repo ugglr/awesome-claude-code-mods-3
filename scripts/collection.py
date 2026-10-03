@@ -12,3 +12,11 @@ for i,name in enumerate(names):
  canvas.paste(image,(x,y))
 canvas.save(ROOT/'assets/screenshots/collection.png')
 print('Built six-preview collection image without cropping')
+names=['desktop-usage-strip','desktop-context-map','desktop-review-desk','desktop-checklist-desk','desktop-prompt-builder','desktop-break-bell']
+canvas=Image.new('RGB',(1500,1040),'#080d16')
+for i,name in enumerate(names):
+ image=Image.open(ROOT/'assets/screenshots'/f'{name}.png').convert('RGB')
+ image.thumbnail((475,490),Image.Resampling.LANCZOS)
+ canvas.paste(image,(15+(i%3)*495,15+(i//3)*510))
+canvas.save(ROOT/'assets/screenshots/desktop-collection.png')
+print('Built six-preview Desktop collection image without cropping')

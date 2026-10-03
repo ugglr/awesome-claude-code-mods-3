@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
-catalog=json.loads((ROOT/'catalog.json').read_text())
+catalog=[m for m in json.loads((ROOT/'catalog.json').read_text()) if m.get('surface')!='desktop']
 FIXTURE=r'''import { mock } from 'claude-code/testing'
 export function world(on) {
   const clock=mock.clock(on,{now:Date.parse('2026-10-03T09:00:00Z')})

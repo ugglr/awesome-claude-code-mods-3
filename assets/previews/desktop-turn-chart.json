@@ -1,0 +1,58 @@
+{
+  "id": "desktop-turn-chart",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop Turn Chart"
+        ]
+      },
+      {
+        "type": "Text",
+        "children": [
+          "1 completed turns observed"
+        ]
+      },
+      {
+        "type": "Svg",
+        "props": {
+          "source": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 580 70\" width=\"580\" height=\"70\"><rect width=\"580\" height=\"70\" rx=\"12\" fill=\"#182234\"/><text x=\"12\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">#1</text><rect x=\"180\" y=\"12\" width=\"310\" height=\"20\" rx=\"5\" fill=\"#8b9cf7\"/><text x=\"505\" y=\"28\" fill=\"#d8dfeb\" font-size=\"12\">4.2</text></svg>",
+          "alt": "Turn duration in seconds",
+          "height": 70
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "#1 main \u00b7 4.2s"
+        ]
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "clear",
+          "label": "Clear turn chart"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "88bbd5b278ce9fd7efa6df3d077c33abc3e361e36ff30029c100b9b4e54d336c"
+}

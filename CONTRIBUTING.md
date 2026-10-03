@@ -8,6 +8,8 @@ For community listings, edit `docs/COMMUNITY_MODS.md` and run `python3 scripts/b
 
 `python3 scripts/build-mods.py` generates the independently installable folders in `mods/`, their README files, and `catalog.json`. The reviewed templates live in that script. Change the template, regenerate, and inspect the resulting diff. `hooks/ui.js` is deliberately copied into every plugin: mods may only import relative files inside their own directory.
 
+`python3 scripts/build-desktop-mods.py` generates the 20 Desktop plugins and their tests; `build-mods.py` invokes it after the original 50. Run the Desktop generator directly for a Desktop-only change.
+
 `python3 scripts/build-tests.py` generates each plugin's native tests and in-memory fixtures. Add assertions for user-visible behavior and failure cases, not just registration. Each test begins with a freshly loaded module. Register stubs before the first call on `$`.
 
 ## Check a change
@@ -15,6 +17,7 @@ For community listings, edit `docs/COMMUNITY_MODS.md` and run `python3 scripts/b
 ```sh
 python3 scripts/build-mods.py
 python3 scripts/build-tests.py
+python3 scripts/build-desktop-mods.py
 python3 scripts/build-readme.py
 python3 scripts/check.py --capture-previews
 python3 scripts/render-previews.py
@@ -36,6 +39,6 @@ For a focused change, start with `claude plugin validate mods/<name> --strict` a
 - Explain persistence, limits, prerequisites, and sensitive data access in the mod README.
 - Add an accurate screenshot generated from its actual native-kit render tree. Keep fixture labels visible.
 - Bump manifest and marketplace versions when publishing an update; installed plugins use cached versions.
-- Keep the catalogue at 50 reviewed mods for this release. Propose additional mods in an issue or a separate version.
+- The collection contains 50 general mods and 20 Desktop additions. Keep catalogue, marketplace, gallery counts, screenshot provenance, and validation totals synchronized when adding plugins.
 
 Contributions are licensed under this repository's MIT license. Do not include credentials, personal transcripts, or third-party assets without compatible permission.

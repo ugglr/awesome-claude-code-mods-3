@@ -1,0 +1,69 @@
+{
+  "id": "desktop-file-desk",
+  "surface": "desktop",
+  "tree": {
+    "type": "Box",
+    "props": {
+      "flexDirection": "column",
+      "gap": 1
+    },
+    "children": [
+      {
+        "type": "Text",
+        "props": {
+          "bold": true,
+          "color": "cyan"
+        },
+        "children": [
+          "Desktop File Desk"
+        ]
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "path",
+          "label": "Text file",
+          "value": "README.md",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Input",
+        "props": {
+          "key": "filter",
+          "label": "Filter lines",
+          "value": "",
+          "submitLabel": "apply"
+        }
+      },
+      {
+        "type": "Text",
+        "children": [
+          "Read README.md"
+        ]
+      },
+      {
+        "type": "Code",
+        "props": {
+          "source": "1: # Demo application\n2: \n3: ## Setup\n4: ```md\n5: # not a heading\n6: ```\n7: ### Tests\n8: ",
+          "language": "text"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "draft",
+          "label": "Draft a question"
+        }
+      },
+      {
+        "type": "Button",
+        "props": {
+          "key": "refresh",
+          "label": "Refresh"
+        }
+      }
+    ]
+  },
+  "sourceSha256": "b5beb0c8d5c18379ab178b44a0ea9ca1ba0d3b4deef7b1ee09cef52e5cdf6b5d"
+}
