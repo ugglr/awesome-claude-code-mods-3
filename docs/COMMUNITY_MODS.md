@@ -1,6 +1,6 @@
 ## Community mods
 
-12 independently published mods, checked against author documentation on **October 3, 2026**. Install these from their authors' marketplaces. The descriptions and commands below are documentation reviews; we have not installed, run, or security-audited these projects. The collection's 50 bundled plugins and their test results are separate.
+14 independently published mods, checked against author documentation on **October 3, 2026**. Install these from their authors' marketplaces. The descriptions and commands below are documentation reviews; we have not installed, run, or security-audited these projects. The collection's 50 bundled plugins and their test results are separate.
 
 Use Claude Code **2.1.287+**. [Anthropic's current documentation](https://code.claude.com/docs/en/plugins/mods/overview#turn-mods-on-or-off) says mods are enabled by default and the old `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS` flag is ignored. Entries marked **early-access documentation** describe older builds; their compatibility with the current API remains unverified. Run `/reload-plugins` after installing into an open session.
 
@@ -18,6 +18,8 @@ Use Claude Code **2.1.287+**. [Anthropic's current documentation](https://code.c
 | Redact detected sensitive values before model input | [secret-redactor](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/main/plugins/secret-redactor) | Reversible, session-memory placeholders; detection has limits |
 | Personalize the prompt with reactive artwork | [pixelband](https://github.com/furqan-khan07/pixelband) | Local images/GIFs; some formats need an OS converter |
 | Use waiting time for a breathing animation | [Mindful Claude](https://github.com/halluton/Mindful-Claude) | Configurable breathing band while a turn runs |
+| Play Doom deathmatch while waiting | [Intermission](https://github.com/jarrodwatts/intermission) | macOS 15+, Ghostty/kitty, game download and shared-server connection |
+| Play Doom locally inside a pane | [claude-doom](https://github.com/ChaseWNorton/claude-doom) | Apple Silicon alpha; pinned older Claude runtime and native engine |
 
 ### [Claude Image View](https://github.com/jarrodwatts/claude-image-view) · jarrodwatts
 
@@ -154,3 +156,36 @@ Displays a breathing animation while Claude works and removes it when the reply 
 ```
 
 Settings persist across sessions. **MIT; early-access documentation.**
+
+### [Intermission](https://github.com/jarrodwatts/intermission) · jarrodwatts
+
+Opens a Doom deathmatch pane while Claude works, using Odamex and Freedoom. The game returns focus when Claude finishes or needs input, such as a permission response. Enable it with `/intermission`; disable it with `/intermission off`.
+
+The author documents this installation command:
+
+```text
+/plugin install intermission --marketplace jarrodwatts/intermission
+```
+
+Requires Claude Code 2.1.287+, macOS 15+ on Apple Silicon or Intel, and Ghostty or kitty. First activation downloads about 20 MB of game files and starts a native engine. Multiplayer connects over UDP to a shared server. The author says session/project data is not sent. **Mod: MIT; Odamex and engine changes: GPL-2.0; Freedoom: BSD-3-Clause.**
+
+### [claude-doom](https://github.com/ChaseWNorton/claude-doom) · ChaseWNorton
+
+Runs the original Doom engine with Freedoom game data in a local `/doom` pane. Playing makes no model calls. The published alpha targets **Apple Silicon Macs, macOS 14+, Node.js 22+ and an authenticated Claude session**.
+
+```text
+/plugin marketplace add ChaseWNorton/claude-doom
+/plugin install doom@faros-labs
+```
+
+The author tests on **Claude Code 2.1.278** with early-access and fullscreen-rendering flags. Its release launcher, `bash scripts/play.sh`, checks the included engine and uses or installs that pinned runtime. Compatibility with 2.1.287+ is unverified. Requires true color and mouse reporting; the recommended terminal is at least 110 columns × 50 rows. A local Node bridge starts the native engine. The alpha has no audio and discards saves/settings on close. **Mod/engine: GPL-2.0-or-later; Freedoom data: permissive BSD license.**
+
+## Built-in option: You should know
+
+[Anthropic documents `cc-plugin-you-should-know`](https://code.claude.com/docs/en/plugins/mods/overview#mods-built-into-claude-code) as a side agent that observes longer-running work and puts potentially overlooked information above the prompt. It is disabled by default and may depend on organization availability. Check `/plugin` → Installed → Show disabled, then enable it if present:
+
+```text
+/plugin enable cc-plugin-you-should-know@builtin
+```
+
+This is an Anthropic built-in, separate from the 14 external community projects and the 50 plugins bundled here. We have not enabled or measured its model usage or runtime behavior.

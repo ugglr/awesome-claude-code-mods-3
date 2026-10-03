@@ -21,6 +21,8 @@ Research checked on October 3, 2026. Links below are primary author repositories
 | [secret-redactor](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/main/plugins/secret-redactor) | Reversible masking of detected secrets, emails and IPs | State session-memory lifetime, restoration into tool inputs and detection limits |
 | [pixelband](https://github.com/furqan-khan07/pixelband) | Reactive pixel scenes and user image/GIF banners | Include local-file and image-converter prerequisites |
 | [Mindful Claude](https://github.com/halluton/Mindful-Claude) | A breathing animation while Claude works | Describe controls without repeating health-benefit claims |
+| [Intermission](https://github.com/jarrodwatts/intermission) | Doom deathmatch during a running turn, with focus returned for completion or user input | State macOS/graphics prerequisites, game download, native process and multiplayer networking |
+| [claude-doom](https://github.com/ChaseWNorton/claude-doom) | Local Doom/Freedoom gameplay in a Claude Code pane | Label the Apple Silicon alpha, pinned older runtime and separate GPL/BSD licenses |
 | [karanb192/claude-code-mods](https://github.com/karanb192/claude-code-mods) | Mod building and cache/model customization | Inventory every engine call with the native validator |
 | [Community mod catalogue](https://github.com/karanb192/awesome-claude-code-mods) | Discover mods with reported access footprints | Describe access per mod and distinguish validation from safety or runtime proof |
 
@@ -28,11 +30,19 @@ The ASCII video viewer mentioned in the request was not uniquely identified by t
 
 ## Community listing follow-up
 
-The [community list](COMMUNITY_MODS.md) now covers 12 external mods, including Claude Image View and 11 additions. Discovery used GitHub searches and community directories; installation and behavior descriptions were checked against the linked authors' READMEs. Directory star counts and scanner results are not used as runtime or security evidence.
+The [community list](COMMUNITY_MODS.md) now covers 14 external mods, including Claude Image View, 11 initial additions and two Doom projects. Discovery used GitHub searches and community directories; installation and behavior descriptions were checked against the linked authors' READMEs. Directory star counts and scanner results are not used as runtime or security evidence.
 
 The added use cases include live web previews, PR review/check monitoring, transcript diagrams, ordered follow-ups, reply formatting, combined session diagnostics, subagent/permission timelines, side questions, reversible redaction, reactive artwork and breathing animations. These complement the bundled viewers and workflow tools without copying third-party code or changing the 50-plugin marketplace.
 
 Some author READMEs still target the early-access function-hooks API. The listings label that status and use the current official version/enablement guidance; compatibility, native layout and security testing of external mods remain unverified. `docs/COMMUNITY_MODS.md` is included by the README generator so the source and rendered list stay in sync.
+
+## Walkthrough-thread leads
+
+The user supplied Lydia Hallie's walkthrough post and replies mentioning Doom gameplay and viewing suggested Magic: The Gathering cards. Searches found the two documented Doom projects above, but did not establish either as the implementation by `@original_ngv`. Their listings credit their repository authors without attributing them to that reply.
+
+No public source or installation instructions were identified for `@full_kelly_`'s MTG-card viewer. The reply suggests a use case for showing domain-specific image references beside recommendations, but it remains an unverified project lead. MTG skills and MCP servers found in search were not treated as that mod. `@JustinPerea`'s reply provides no project name or use case to verify.
+
+Related official documentation also identifies [You should know](https://code.claude.com/docs/en/plugins/mods/overview#mods-built-into-claude-code), an optional built-in side agent that surfaces overlooked information. It is listed separately with its enable command and organization-availability limit; it is not attributed to the walkthrough's video.
 
 ## Selection
 
