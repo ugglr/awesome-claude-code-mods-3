@@ -14,12 +14,25 @@ Research checked on October 3, 2026. Links below are primary author repositories
 | [cc-pr-tracker](https://github.com/sezaakgun/cc-pr-tracker) | Watch pull-request state and checks | Prefer local Git inspection in this first release, without GitHub auth |
 | [claude-games](https://github.com/mohi-devhub/claude-games) | Games that respond to real coding activity | Include a small ASCII flipbook and focus tools rather than a game pack |
 | [Storybloq](https://github.com/Storybloq/storybloq) | Project stories, plans, handovers, review evidence | Include explicit user-maintained decisions and handoff notes |
-| [claude-mods / Mermaid](https://github.com/galElmalah/claude-mods) | Inline diagram rendering | Make render outputs inspectable and keep Desktop/Terminal compatibility clear |
+| [claude-mods / Mermaid and Queue](https://github.com/galElmalah/claude-mods) | Inline diagram rendering and queued follow-up prompts | Describe the diagram renderer and the queue's automatic submission behavior separately |
 | [Claude Image View](https://github.com/jarrodwatts/claude-image-view) | Numbered thumbnails of pasted images above the prompt in terminals supporting the kitty graphics protocol | Link the author's marketplace installation and explain terminal requirements in the README's Community mods section |
+| [prismantis](https://github.com/NahumLitvin/prismantis) | Themed reply tables, highlighted code, diagrams, charts and copy controls | List formatting alongside its optional model-context hints |
+| [aside](https://github.com/JayDoubleu/aside) | Tool-less side chat over the session transcript | Explain additional model usage and the last-completed-turn snapshot |
+| [secret-redactor](https://github.com/ray-amjad/awesome-claude-code-function-hooks/tree/main/plugins/secret-redactor) | Reversible masking of detected secrets, emails and IPs | State session-memory lifetime, restoration into tool inputs and detection limits |
+| [pixelband](https://github.com/furqan-khan07/pixelband) | Reactive pixel scenes and user image/GIF banners | Include local-file and image-converter prerequisites |
+| [Mindful Claude](https://github.com/halluton/Mindful-Claude) | A breathing animation while Claude works | Describe controls without repeating health-benefit claims |
 | [karanb192/claude-code-mods](https://github.com/karanb192/claude-code-mods) | Mod building and cache/model customization | Inventory every engine call with the native validator |
 | [Community mod catalogue](https://github.com/karanb192/awesome-claude-code-mods) | Discover mods with reported access footprints | Describe access per mod and distinguish validation from safety or runtime proof |
 
 The ASCII video viewer mentioned in the request was not uniquely identified by the searches. We do not attribute it to an unverified author. **ASCII Flipbook** here is an original text-frame player, not an MP4 decoder. It uses form-feed-separated frames and a 2 fps clock; it does not download a video engine or invoke ffmpeg.
+
+## Community listing follow-up
+
+The [community list](COMMUNITY_MODS.md) now covers 12 external mods, including Claude Image View and 11 additions. Discovery used GitHub searches and community directories; installation and behavior descriptions were checked against the linked authors' READMEs. Directory star counts and scanner results are not used as runtime or security evidence.
+
+The added use cases include live web previews, PR review/check monitoring, transcript diagrams, ordered follow-ups, reply formatting, combined session diagnostics, subagent/permission timelines, side questions, reversible redaction, reactive artwork and breathing animations. These complement the bundled viewers and workflow tools without copying third-party code or changing the 50-plugin marketplace.
+
+Some author READMEs still target the early-access function-hooks API. The listings label that status and use the current official version/enablement guidance; compatibility, native layout and security testing of external mods remain unverified. `docs/COMMUNITY_MODS.md` is included by the README generator so the source and rendered list stay in sync.
 
 ## Selection
 

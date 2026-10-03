@@ -2,6 +2,8 @@
 
 A useful mod solves a specific problem, works on its own, and explains what it can access. This repository contains original implementations; research links are references, not bundled third-party code.
 
+For community listings, edit `docs/COMMUNITY_MODS.md` and run `python3 scripts/build-readme.py`. That file is the source for the README's Community mods section. Verify use cases, install commands and prerequisites against the author's repository; include source links and the review date, and distinguish documentation review from runtime testing. Third-party listings do not change the bundled catalogue or its validation totals.
+
 ## Edit the source
 
 `python3 scripts/build-mods.py` generates the independently installable folders in `mods/`, their README files, and `catalog.json`. The reviewed templates live in that script. Change the template, regenerate, and inspect the resulting diff. `hooks/ui.js` is deliberately copied into every plugin: mods may only import relative files inside their own directory.

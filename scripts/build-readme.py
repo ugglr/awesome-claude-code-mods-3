@@ -5,17 +5,17 @@ ROOT=Path(__file__).resolve().parent.parent
 mods=json.loads((ROOT/'catalog.json').read_text())
 intro='''# Awesome Claude Code Mods
 
-**50 useful mods. Pick one. Install it. Keep working.**
+**50 useful mods, plus community picks. Pick one. Install it. Keep working.**
 
 This repository was inspired by the [Claude Code Mods guide on ExplainX.ai](https://www.explainx.ai/blog/claude-code-mods-typescript-plugins-guide-2026).
 
-Independent, MIT-licensed plugins for Git inspection, session diagnostics, local file viewers, workspace notes, text utilities, and workflow controls. Each comes with working source, native Claude Code tests, install instructions, an access description, and a screenshot.
+50 independent, MIT-licensed bundled plugins for Git inspection, session diagnostics, local file viewers, workspace notes, text utilities, and workflow controls. Each comes with working source, native Claude Code tests, install instructions, an access description, and a screenshot. The community section adds external projects with their own installation and requirements.
 
 ![Six mod previews](assets/screenshots/collection.png)
 
 *Screenshots show actual mod render trees captured by Claude Code's test kit with fixture data, painted in a browser preview. They are not native Claude Code app captures. [Screenshot provenance](docs/SCREENSHOTS.md).*
 
-[Searchable gallery (open locally)](gallery.html) · [Research and existing mods](docs/RESEARCH.md) · [Validation](docs/VALIDATION.md) · [Contribute](CONTRIBUTING.md)
+[Searchable gallery (open locally)](gallery.html) · [Community mods](#community-mods) · [Research and existing mods](docs/RESEARCH.md) · [Validation](docs/VALIDATION.md) · [Contribute](CONTRIBUTING.md)
 
 ## Start in under a minute
 
@@ -52,31 +52,14 @@ for category in dict.fromkeys(m['category'] for m in mods):
  for m in group:
   out+=f"| [{m['title']}](mods/{m['id']}/README.md) | {m['description']} | [![{m['title']} preview](assets/screenshots/{m['id']}.png)](assets/screenshots/{m['id']}.png) |\n"
  out+='\n'
-out+='''## Community mods
-
-### [Claude Image View](https://github.com/jarrodwatts/claude-image-view) · by Jarrod Watts
-
-Shows numbered thumbnails of pasted images above the prompt input. Previews appear immediately, preserve aspect ratios, fit the available space, and clear when you send the prompt or delete the image tags.
-
-Install from the author's marketplace inside Claude Code:
-
-```text
-/plugin marketplace add jarrodwatts/claude-image-view
-/plugin install image-view
-/reload-plugins
-```
-
-Requires Claude Code **2.1.287+**, macOS or Linux, and a terminal supporting the **kitty graphics protocol**, such as Ghostty or kitty. Other terminals display image tags in the tiles; the mod draws nothing in Claude Desktop, which already previews pasted images.
-
-The upstream README describes local prompt and image-cache reads, no network requests or file writes, and a one-time `id -u` call when `CLAUDE_CODE_TMPDIR` is unset. MIT-licensed. This is an external project installed from its own marketplace; we reviewed its documentation but have not installed or tested it. [Upstream README and source](https://github.com/jarrodwatts/claude-image-view).
-
-## How the collection behaves
+out+=(ROOT/'docs/COMMUNITY_MODS.md').read_text().rstrip()+'\n\n'
+out+='''## How the bundled collection behaves
 
 - Panes open when you run a command. Refresh and input controls act on your request.
 - Git inspectors run read-only argv commands. File viewers read bounded, user-chosen paths. They do not edit your repository.
 - Workspace tools save user-entered items in each plugin's local store, partitioned by working directory. Clipboard and composer-draft actions require a button press.
 - Session diagnostics observe activity from the moment they load. They do not reconstruct earlier turns, and their history resets on reload.
-- No mod makes network requests, calls a model, auto-submits a prompt, messages a session, or approves permission prompts. No paid service is needed.
+- None of the bundled mods makes network requests, calls a model, auto-submits a prompt, messages a session, or approves permission prompts. No paid service is needed for the bundled collection.
 
 Mods run with your user permissions. Tool error text, command arguments, and notes may be sensitive; inspect what you share. `read-only-mode` and `scope-watch` are convenience guards with explicit limits, not security boundaries. [Access and security](SECURITY.md).
 
