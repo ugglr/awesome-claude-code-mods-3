@@ -13,7 +13,7 @@ Baseline: **Claude Code 2.1.288**, macOS, Python 3.12.12. Initial release verifi
 | Gallery browser checks | Passed | Search, the 8-item Git filter, all 50 cards, and 390px layout work |
 | Artifact audit | Passed | Mod count, MIT licenses, local imports, screenshot source/content hashes, and local documentation links are consistent |
 | Interactive native layout acceptance | Open | Native terminal pixels, Desktop painting, and real keyboard focus for all 50 mods have not been verified |
-| GitHub-hosted CI | Not yet observed at publication | Workflow is configured; local checks are separate from the eventual GitHub result |
+| GitHub-hosted CI | Blocked before execution | GitHub did not start the job because of an account restriction; no hosted validation steps ran. [Workflow run](https://github.com/whyashthakker/awesome-claude-code-mods/actions/runs/37100619513). |
 
 Every mod has five native tests: command registration/opening, another pane's isolation, Terminal behavior, Desktop behavior, and a preview capture. Tests use fresh modules and in-memory engine stubs. They do not execute real tools, read real user files, spend model tokens, or touch a real account.
 
